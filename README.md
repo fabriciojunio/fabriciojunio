@@ -1,7 +1,7 @@
 - 👋 Hi, I’m Fabrício Júnio;
 - 🌱 Html | Css | Javascript;
-- 👀 Open to work;
 - 💞️ I’m collaborating as a Developer Freelancer;
+- 👀 Open to work;
 - 📫 How to reach me: e-mail - junioad555@gmail.com;
 - 💡 English | Portuguese 🇧🇷
 
