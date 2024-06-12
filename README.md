@@ -1,10 +1,22 @@
-- 👋 Hi, I’m Fabrício Júnio;
-- 🌱 Html | Css | Javascript;
-- 💞️ I’m collaborating as a Developer Freelancer;
-- 👀 Open to work;
-- 💡 English | Portuguese 🇧🇷
 
-<!---
-fabriciojunio/fabriciojunio is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+<code>print("Welcome to my github!😆")</code>
+<hr>
+
+<p>🎓 Graduating in Computer Science at <a href="https://unisagrado.edu.br">Unisagrado</a></p>
+<p>✈️ Studying English at <a href="https://www.cna.com.br">CNA</a></p>
+<p>📚 Studying Javascript and Object Manipulation Concepts</p>
+
+
+[![My Skills](https://skillicons.dev/icons?i=python,javascript,typescript,html,css)](https://skillicons.dev)
+
+Here you'll find some projects focused in the following technologies:
+<p>-Phyton</p>
+<p>-Javascript</p>
+<p>-Typescript</p>
+<p>-Html</p>
+<p>-Css</p>
+<p>-Relational and Non-Relational Databases (SQL Server, MySQL)</p>
+
+<hr>
+
+Enjoy :)
