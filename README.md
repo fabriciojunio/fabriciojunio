@@ -10,9 +10,7 @@
 [![My Skills](https://skillicons.dev/icons?i=python,javascript,typescript,html,css)](https://skillicons.dev)
 
 Here you'll find some projects focused in the following technologies:
-<p>-Phyton</p>
 <p>-Javascript</p>
-<p>-Typescript</p>
 <p>-Html</p>
 <p>-Css</p>
 <p>-Relational and Non-Relational Databases (SQL Server, MySQL)</p>
