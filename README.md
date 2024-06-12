@@ -17,4 +17,4 @@ Here you'll find some projects focused in the following technologies:
 
 <hr>
 
-Enjoy :)
+Thanks :)
