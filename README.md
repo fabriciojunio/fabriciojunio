@@ -7,7 +7,7 @@
 <p>📚 Studying Javascript and Object Manipulation Concepts</p>
 
 
-[![My Skills](https://skillicons.dev/icons?i=python,javascript,typescript,html,css)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=javascript,html,css)](https://skillicons.dev)
 
 Here you'll find some projects focused in the following technologies:
 <p>-Javascript</p>
