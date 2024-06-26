@@ -13,7 +13,6 @@ Here you'll find some projects focused in the following technologies:
 <p>-Javascript</p>
 <p>-Html</p>
 <p>-Css</p>
-<p>-Relational and Non-Relational Databases (SQL Server, MySQL)</p>
 
 <hr>
 
