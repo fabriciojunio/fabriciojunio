@@ -10,9 +10,9 @@
 [![My Skills](https://skillicons.dev/icons?i=html,css,javascript)](https://skillicons.dev)
 
 Here you'll find some projects focused in the following technologies:
-<p>-Javascript</p>
 <p>-Html</p>
 <p>-Css</p>
+<p>-JavaScript</p>
 
 <hr>
 
