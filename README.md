@@ -4,7 +4,7 @@
 
 <br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-fabriciojunio-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fabriciojunio)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-fabríciojúnio-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fabríciojúnio)
 [![Portfolio](https://img.shields.io/badge/Portfolio-portfolio--a3qn.vercel.app-FF6B6B?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-a3qn.vercel.app)
 [![Email](https://img.shields.io/badge/Email-junioad555@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:junioad555@gmail.com)
 
