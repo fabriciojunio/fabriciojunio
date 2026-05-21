@@ -4,9 +4,9 @@
 
 <br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-fabríciojúnio-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fabríciojúnio)
-[![Portfolio](https://img.shields.io/badge/Portfolio-portfolio--a3qn.vercel.app-FF6B6B?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-a3qn.vercel.app)
-[![Email](https://img.shields.io/badge/Email-junioad555@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:junioad555@gmail.com)
+<a href="https://www.linkedin.com/in/fabríciojúnio" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/LinkedIn-fabríciojúnio-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="https://portfolio-a3qn.vercel.app" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Portfolio-portfolio--a3qn.vercel.app-FF6B6B?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+<a href="mailto:junioad555@gmail.com" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Email-junioad555@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 
 </div>
 
@@ -82,14 +82,14 @@ dev = {
 
 | Projeto | Descrição | Stack | Demo |
 |---|---|---|---|
-| [**Paiol Tech**](https://github.com/fabriciojunio/paiol-tech) | SaaS de gestão de dívidas rurais — monorepo Turborepo, PWA offline-first, NestJS CQRS | Next.js · NestJS · pnpm | [▶ Demo](https://paiol-tech-ms6eu5pyv-junioad555-5412s-projects.vercel.app) |
-| [**JIS**](https://github.com/fabriciojunio/jis) | Job Intelligence System — coleta vagas, aplica ML e notifica via Telegram | Spring Boot · Python · FastAPI | [▶ Demo](https://jis-frontend-mocha.vercel.app) |
-| [**CodeReview AI**](https://github.com/fabriciojunio/codereview-ai) | Análise de código com LLM local (Ollama), fila RabbitMQ e streaming SSE | Java 21 · Ollama · Redis | — |
-| [**GolData**](https://github.com/fabriciojunio/goldata) | Plataforma analytics de futebol com xG, redes de passe e ML preditivo | Python · FastAPI · XGBoost | — |
-| [**ConectAgente**](https://github.com/fabriciojunio/ConectAgente) | App mobile offline-first para Agentes de Saúde do SUS | React Native · Expo · Supabase | [▶ Demo](https://conectagente-web.vercel.app) |
-| [**Apontamento de Horas**](https://github.com/fabriciojunio/apontamento-horas) | Sistema de registro de horas com relatórios Excel e detecção IA local | Next.js · Prisma · xlsx | [▶ Demo](https://apontamento-horas.vercel.app) |
-| [**MyCondPets**](https://github.com/fabriciojunio/MyCondPets) | Gestão de pets em condomínios com Google OAuth e painel admin | Next.js · NextAuth · Supabase | [▶ Demo](https://mycondpets.vercel.app) |
-| [**Quantbot ML**](https://github.com/fabriciojunio/quantbot-ml) | Trading quantitativo com ensemble de 3 modelos e análise FinBERT | Python · XGBoost · PyTorch | — |
+| <a href="https://github.com/fabriciojunio/paiol-tech" target="_blank" rel="noopener noreferrer"><strong>Paiol Tech</strong></a> | SaaS de gestão de dívidas rurais — monorepo Turborepo, PWA offline-first, NestJS CQRS | Next.js · NestJS · pnpm | <a href="https://paiol-tech-ms6eu5pyv-junioad555-5412s-projects.vercel.app" target="_blank" rel="noopener noreferrer">▶ Demo</a> |
+| <a href="https://github.com/fabriciojunio/jis" target="_blank" rel="noopener noreferrer"><strong>JIS</strong></a> | Job Intelligence System — coleta vagas, aplica ML e notifica via Telegram | Spring Boot · Python · FastAPI | <a href="https://jis-frontend-mocha.vercel.app" target="_blank" rel="noopener noreferrer">▶ Demo</a> |
+| <a href="https://github.com/fabriciojunio/codereview-ai" target="_blank" rel="noopener noreferrer"><strong>CodeReview AI</strong></a> | Análise de código com LLM local (Ollama), fila RabbitMQ e streaming SSE | Java 21 · Ollama · Redis | — |
+| <a href="https://github.com/fabriciojunio/goldata" target="_blank" rel="noopener noreferrer"><strong>GolData</strong></a> | Plataforma analytics de futebol com xG, redes de passe e ML preditivo | Python · FastAPI · XGBoost | — |
+| <a href="https://github.com/fabriciojunio/ConectAgente" target="_blank" rel="noopener noreferrer"><strong>ConectAgente</strong></a> | App mobile offline-first para Agentes de Saúde do SUS | React Native · Expo · Supabase | <a href="https://conectagente-web.vercel.app" target="_blank" rel="noopener noreferrer">▶ Demo</a> |
+| <a href="https://github.com/fabriciojunio/apontamento-horas" target="_blank" rel="noopener noreferrer"><strong>Apontamento de Horas</strong></a> | Sistema de registro de horas com relatórios Excel e detecção IA local | Next.js · Prisma · xlsx | <a href="https://apontamento-horas.vercel.app" target="_blank" rel="noopener noreferrer">▶ Demo</a> |
+| <a href="https://github.com/fabriciojunio/MyCondPets" target="_blank" rel="noopener noreferrer"><strong>MyCondPets</strong></a> | Gestão de pets em condomínios com Google OAuth e painel admin | Next.js · NextAuth · Supabase | <a href="https://mycondpets.vercel.app" target="_blank" rel="noopener noreferrer">▶ Demo</a> |
+| <a href="https://github.com/fabriciojunio/quantbot-ml" target="_blank" rel="noopener noreferrer"><strong>Quantbot ML</strong></a> | Trading quantitativo com ensemble de 3 modelos e análise FinBERT | Python · XGBoost · PyTorch | — |
 
 ---
 
