@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=700&lines=Olá%2C+sou+Fabrício+Júnio!+👋;Desenvolvedor+FullStack;Aplico+IA+em+problemas+reais;Java+%7C+Python+%7C+TypeScript" alt="Typing SVG" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=00D9FF&height=120&section=header&text=Fabrício+Júnio&fontSize=36&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Desenvolvedor+FullStack+%7C+IA+Aplicada&descAlignY=60&descAlign=50" alt="Fabrício Júnio" width="100%" />
 
 <br/>
 
@@ -97,14 +97,14 @@ dev = {
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=fabriciojunio&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=fabriciojunio&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=fabriciojunio&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&cache_seconds=86400&rank_icon=percentile" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=fabriciojunio&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&cache_seconds=86400" />
 
 </div>
 
 <div align="center">
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=fabriciojunio&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=fabriciojunio&theme=tokyo-night&hide_border=true&area=true" width="100%" />
 
 </div>
 
