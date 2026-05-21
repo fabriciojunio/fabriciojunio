@@ -97,13 +97,6 @@ dev = {
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=fabriciojunio&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&cache_seconds=86400&rank_icon=percentile" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=fabriciojunio&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&cache_seconds=86400" />
-
-</div>
-
-<div align="center">
-
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=fabriciojunio&theme=tokyo-night&hide_border=true&area=true" width="100%" />
 
 </div>
