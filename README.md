@@ -93,13 +93,25 @@ dev = {
 
 ---
 
-## 📊 Estatísticas
+## 🏆 Conquistas GitHub
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=fabriciojunio&theme=tokyo-night&hide_border=true&area=true" width="100%" />
+<img src="https://github-profile-trophy.vercel.app/?username=fabriciojunio&theme=tokyonight&no-frame=true&row=1&column=7" width="100%" />
 
 </div>
+
+---
+
+## 🎯 Foco Atual
+
+| Área | O que estou fazendo |
+|---|---|
+| 💼 **Trabalho** | Sistemas web e APIs REST na Nexum Tecnologia (Bauru, SP) |
+| 🤖 **IA Aplicada** | LLMs locais com Ollama, pipelines ML com scikit-learn e PyTorch |
+| ☁️ **Cloud & DevOps** | Estudando MLOps, Cloud Architecture e orquestração com Docker |
+| 📱 **Mobile** | React Native + Expo para apps offline-first do setor de saúde |
+| 🌱 **Inovação** | Projetos na Incubadora Saruê – UNESP Bauru |
 
 ---
 
