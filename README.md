@@ -82,7 +82,7 @@ dev = {
 
 | Projeto | Descrição | Stack | Demo |
 |---|---|---|---|
-| <a href="https://github.com/fabriciojunio/paiol-tech" target="_blank" rel="noopener noreferrer"><strong>Paiol Tech</strong></a> | SaaS de gestão de dívidas rurais — monorepo Turborepo, PWA offline-first, NestJS CQRS | Next.js · NestJS · pnpm | <a href="https://paiol-tech-ms6eu5pyv-junioad555-5412s-projects.vercel.app" target="_blank" rel="noopener noreferrer">▶ Demo</a> |
+| <a href="https://github.com/fabriciojunio/paiol-tech" target="_blank" rel="noopener noreferrer"><strong>Paiol Tech</strong></a> | SaaS de gestão de dívidas rurais — monorepo Turborepo, PWA offline-first, NestJS CQRS | Next.js · NestJS · pnpm | <a href="https://paiol-tech.vercel.app" target="_blank" rel="noopener noreferrer">▶ Demo</a> |
 | <a href="https://github.com/fabriciojunio/jis" target="_blank" rel="noopener noreferrer"><strong>JIS</strong></a> | Job Intelligence System — coleta vagas, aplica ML e notifica via Telegram | Spring Boot · Python · FastAPI | <a href="https://jis-frontend-mocha.vercel.app" target="_blank" rel="noopener noreferrer">▶ Demo</a> |
 | <a href="https://github.com/fabriciojunio/codereview-ai" target="_blank" rel="noopener noreferrer"><strong>CodeReview AI</strong></a> | Análise de código com LLM local (Ollama), fila RabbitMQ e streaming SSE | Java 21 · Ollama · Redis | — |
 | <a href="https://github.com/fabriciojunio/goldata" target="_blank" rel="noopener noreferrer"><strong>GolData</strong></a> | Plataforma analytics de futebol com xG, redes de passe e ML preditivo | Python · FastAPI · XGBoost | — |
