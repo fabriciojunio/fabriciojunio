@@ -26,6 +26,10 @@ dev = {
     "foco":       "FullStack + IA Aplicada",
     "cidade":     "Bauru, SP 🇧🇷",
     "aprendendo": ["LLMs", "MLOps", "Cloud Architecture"],
+    "projetos":   12,
+    "linhas":     "110K+",
+    "testes":     "2K+",
+    "linguagens": 6,
 }
 ```
 
