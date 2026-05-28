@@ -89,7 +89,11 @@ dev = {
 | <a href="https://github.com/fabriciojunio/ConectAgente" target="_blank" rel="noopener noreferrer"><strong>ConectAgente</strong></a> | App mobile offline-first para Agentes de Saúde do SUS | React Native · Expo · Supabase | <a href="https://conectagente-web.vercel.app" target="_blank" rel="noopener noreferrer">▶ Demo</a> |
 | <a href="https://github.com/fabriciojunio/apontamento-horas" target="_blank" rel="noopener noreferrer"><strong>Apontamento de Horas</strong></a> | Sistema de registro de horas com relatórios Excel e detecção IA local | Next.js · Prisma · xlsx | <a href="https://apontamento-horas.vercel.app" target="_blank" rel="noopener noreferrer">▶ Demo</a> |
 | <a href="https://github.com/fabriciojunio/MyCondPets" target="_blank" rel="noopener noreferrer"><strong>MyCondPets</strong></a> | Gestão de pets em condomínios com Google OAuth e painel admin | Next.js · NextAuth · Supabase | <a href="https://mycondpets.vercel.app" target="_blank" rel="noopener noreferrer">▶ Demo</a> |
+| <a href="https://github.com/fabriciojunio/KoraCRM" target="_blank" rel="noopener noreferrer"><strong>KoraCRM</strong></a> | CRM com pipeline de vendas Kanban, gestão de contatos e dashboard analítico | Laravel 11 · PHP · React | <a href="https://koracrm-frontend.vercel.app" target="_blank" rel="noopener noreferrer">▶ Demo</a> |
 | <a href="https://github.com/fabriciojunio/quantbot-ml" target="_blank" rel="noopener noreferrer"><strong>Quantbot ML</strong></a> | Trading quantitativo com ensemble de 3 modelos e análise FinBERT | Python · XGBoost · PyTorch | — |
+| <a href="https://github.com/fabriciojunio/bot-sinais" target="_blank" rel="noopener noreferrer"><strong>GolData Pro</strong></a> | Sinais de value bets com ML Dixon-Coles + Elo, Bot Telegram e histórico auditável por SHA-256 | FastAPI · Python · Next.js | — |
+| <a href="https://github.com/fabriciojunio/mente-viva" target="_blank" rel="noopener noreferrer"><strong>Mente Viva</strong></a> | App de exercícios cognitivos para prevenção do Alzheimer — 7 jogos, APK via GitHub Actions | React Native · Expo SDK 50 | — |
+| <a href="https://github.com/fabriciojunio/mundo-do-lukinha" target="_blank" rel="noopener noreferrer"><strong>Mundo do Lukinha</strong></a> | Plataforma educativa com 6 jogos para crianças de 3 a 14 anos e adaptação automática por faixa etária | Next.js 14 · Zustand · TypeScript | — |
 
 ---
 
@@ -100,7 +104,7 @@ dev = {
 | 💼 **Trabalho** | Sistemas web e APIs REST na Nexum Tecnologia (Bauru, SP) |
 | 🤖 **IA Aplicada** | LLMs locais com Ollama, pipelines ML com scikit-learn e PyTorch |
 | ☁️ **Cloud & DevOps** | Estudando MLOps, Cloud Architecture e orquestração com Docker |
-| 📱 **Mobile** | React Native + Expo para apps offline-first do setor de saúde |
+| 📱 **Mobile** | React Native + Expo: apps offline-first de saúde (ConectAgente) e cognitivo (Mente Viva) |
 | 🌱 **Inovação** | Projetos na Incubadora Saruê – UNESP Bauru |
 
 ---
