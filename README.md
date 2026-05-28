@@ -93,7 +93,7 @@ dev = {
 | <a href="https://github.com/fabriciojunio/quantbot-ml" target="_blank" rel="noopener noreferrer"><strong>Quantbot ML</strong></a> | Trading quantitativo com ensemble de 3 modelos e análise FinBERT | Python · XGBoost · PyTorch | — |
 | <a href="https://github.com/fabriciojunio/bot-sinais" target="_blank" rel="noopener noreferrer"><strong>GolData Pro</strong></a> | Sinais de value bets com ML Dixon-Coles + Elo, Bot Telegram e histórico auditável por SHA-256 | FastAPI · Python · Next.js | — |
 | <a href="https://github.com/fabriciojunio/mente-viva" target="_blank" rel="noopener noreferrer"><strong>Mente Viva</strong></a> | App de exercícios cognitivos para prevenção do Alzheimer — 7 jogos, APK via GitHub Actions | React Native · Expo SDK 50 | — |
-| <a href="https://github.com/fabriciojunio/mundo-do-lukinha" target="_blank" rel="noopener noreferrer"><strong>Mundo do Lukinha</strong></a> | Plataforma educativa com 6 jogos para crianças de 3 a 14 anos e adaptação automática por faixa etária | Next.js 14 · Zustand · TypeScript | — |
+| <a href="https://github.com/fabriciojunio/mundo-do-lukinha" target="_blank" rel="noopener noreferrer"><strong>Mundo do Lukinha</strong></a> | Plataforma educativa com 6 jogos para crianças de 3 a 14 anos e adaptação automática por faixa etária | Next.js 14 · Zustand · TypeScript | <a href="https://mundo-do-lukinha.vercel.app" target="_blank" rel="noopener noreferrer">▶ Demo</a> |
 
 ---
 
