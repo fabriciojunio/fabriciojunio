@@ -98,7 +98,7 @@ dev = {
 | <a href="https://github.com/fabriciojunio/bot-sinais" target="_blank" rel="noopener noreferrer"><strong>GolData Pro</strong></a> | Sinais de value bets com ML Dixon-Coles + Elo, Bot Telegram e histórico auditável por SHA-256 | FastAPI · Python · Next.js | - |
 | <a href="https://github.com/fabriciojunio/mente-viva" target="_blank" rel="noopener noreferrer"><strong>Mente Viva</strong></a> | App de exercícios cognitivos para prevenção do Alzheimer, 7 jogos, APK via GitHub Actions | React Native · Expo SDK 50 | - |
 | <a href="https://github.com/fabriciojunio/mundo-do-lukinha" target="_blank" rel="noopener noreferrer"><strong>Mundo do Lukinha</strong></a> | Plataforma educativa com 6 jogos para crianças de 3 a 14 anos e adaptação automática por faixa etária | Next.js 14 · Zustand · TypeScript | <a href="https://mundo-do-lukinha.vercel.app" target="_blank" rel="noopener noreferrer">▶ Demo</a> |
-| <a href="https://github.com/fabriciojunio/enterprise-project" target="_blank" rel="noopener noreferrer"><strong>Enterprise Project</strong></a> | API REST enterprise com Clean Architecture, JWT + 2FA TOTP, RBAC e 23 testes automatizados | Node.js · React 18 · PostgreSQL · Redis | <a href="https://frontend-tan-mu-38.vercel.app" target="_blank" rel="noopener noreferrer">▶ Demo</a> |
+| <a href="https://github.com/fabriciojunio/authcore" target="_blank" rel="noopener noreferrer"><strong>AuthCore</strong></a> | Plataforma de autenticação com JWT RS256, 2FA TOTP, RBAC, audit log e Docker | Node.js · React 18 · PostgreSQL · Redis | <a href="https://frontend-tan-mu-38.vercel.app" target="_blank" rel="noopener noreferrer">▶ Demo</a> |
 
 ---
 
