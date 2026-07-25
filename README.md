@@ -1,41 +1,18 @@
-<div align="center">
+# Fabrício Júnio
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=00D9FF&height=120&section=header&text=Fabrício+Júnio&fontSize=36&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Desenvolvedor+FullStack+%7C+IA+Aplicada&descAlignY=60&descAlign=50" alt="Fabrício Júnio" width="100%" />
+Desenvolvedor FullStack em Bauru/SP. Trabalho com Java/Spring, TypeScript e Python, e venho colocando IA em projetos reais: LLMs locais com Ollama e pipelines de Machine Learning com scikit-learn e PyTorch.
 
-<br/>
+<a href="https://linkedin.com/in/fabríciojúnio" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="https://fabriciojunio.vercel.app" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Portfólio-FF6B6B?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfólio" /></a>
+<a href="mailto:junioad555@gmail.com" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 
-<a href="https://www.linkedin.com/in/fabríciojúnio" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/LinkedIn-fabríciojúnio-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="https://fabriciojunio.vercel.app" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Portfolio-fabriciojunio.vercel.app-FF6B6B?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
-<a href="mailto:junioad555@gmail.com" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Email-junioad555@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+## Sobre
 
-</div>
+No dia a dia trabalho com sistemas web, APIs REST e automação na Nexum Tecnologia (Bauru/SP). A maior parte dos meus projetos pessoais gira em torno de duas coisas: back-end bem estruturado (Clean Architecture, testes, observabilidade) e IA aplicada, com foco em LLMs rodando local e modelos de ML.
 
----
+Estou no Bacharelado em Ciência da Computação na UNISAGRADO (2024-2027) e participo da Incubadora Saruê, na UNESP Bauru. No mobile, tenho trabalhado com React Native e Expo em apps offline-first (saúde e cognição). No momento estudo mais a fundo MLOps e arquitetura em nuvem.
 
-## 👨‍💻 Sobre mim
-
-Sou **Desenvolvedor FullStack** na **Nexum Tecnologia** (Bauru, SP), com experiência em sistemas web, APIs REST e automação de processos. Aplico **Inteligência Artificial** em projetos reais: LLMs locais com Ollama, Machine Learning com scikit-learn/PyTorch e análise de dados com Python.
-
-Formando em **Bacharelado em Ciência da Computação** pela **UNISAGRADO** (2024–2027) e membro da **Incubadora Saruê – UNESP Bauru**.
-
-```python
-dev = {
-    "nome":       "Fabrício Júnio",
-    "empresa":    "Nexum Tecnologia",
-    "stack":      ["Java", "TypeScript", "Python", "PHP"],
-    "foco":       "FullStack + IA Aplicada",
-    "cidade":     "Bauru, SP 🇧🇷",
-    "aprendendo": ["LLMs", "MLOps", "Cloud Architecture"],
-    "projetos":   14,
-    "linhas":     "110K+",
-    "testes":     "2K+",
-    "linguagens": 6,
-}
-```
-
----
-
-## 🛠️ Stack Tecnológica
+## Stack
 
 ### Linguagens
 ![Java](https://img.shields.io/badge/Java_21-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
@@ -82,46 +59,22 @@ dev = {
 
 ---
 
-## 🚀 Projetos em Destaque
+## Projetos
 
 | Projeto | Descrição | Stack | Demo |
 |---|---|---|---|
-| <a href="https://github.com/fabriciojunio/paiol-tech" target="_blank" rel="noopener noreferrer"><strong>Paiol Tech</strong></a> | SaaS de gestão de dívidas rurais, monorepo Turborepo, PWA offline-first, NestJS CQRS | Next.js · NestJS · pnpm | <a href="https://paiol-tech.vercel.app" target="_blank" rel="noopener noreferrer">▶ Demo</a> |
-| <a href="https://github.com/fabriciojunio/jis" target="_blank" rel="noopener noreferrer"><strong>JIS</strong></a> | Agregador de vagas de várias fontes reais, com scoring por região/stack e geração de currículo no próprio app | Next.js 15 · TypeScript · Vercel | <a href="https://jis-frontend-mocha.vercel.app" target="_blank" rel="noopener noreferrer">▶ Demo</a> |
+| <a href="https://github.com/fabriciojunio/paiol-tech" target="_blank" rel="noopener noreferrer"><strong>Paiol Tech</strong></a> | SaaS de gestão de dívidas rurais, monorepo Turborepo, PWA offline-first, NestJS CQRS | Next.js · NestJS · pnpm | <a href="https://paiol-tech.vercel.app" target="_blank" rel="noopener noreferrer">Demo</a> |
+| <a href="https://github.com/fabriciojunio/jis" target="_blank" rel="noopener noreferrer"><strong>JIS</strong></a> | Agregador de vagas de várias fontes reais, com scoring por região/stack e geração de currículo no próprio app | Next.js 15 · TypeScript · Vercel | <a href="https://jis-frontend-mocha.vercel.app" target="_blank" rel="noopener noreferrer">Demo</a> |
 | <a href="https://github.com/fabriciojunio/codereview-ai" target="_blank" rel="noopener noreferrer"><strong>CodeReview AI</strong></a> | Análise de código com LLM local (Ollama), fila RabbitMQ e streaming SSE | Java 21 · Ollama · Redis | - |
 | <a href="https://github.com/fabriciojunio/goldata" target="_blank" rel="noopener noreferrer"><strong>GolData</strong></a> | Plataforma analytics de futebol com xG, redes de passe e ML preditivo | Python · FastAPI · XGBoost | - |
-| <a href="https://github.com/fabriciojunio/ConectAgente" target="_blank" rel="noopener noreferrer"><strong>ConectAgente</strong></a> | App mobile offline-first para Agentes de Saúde do SUS | React Native · Expo · Supabase | <a href="https://conectagente-web.vercel.app" target="_blank" rel="noopener noreferrer">▶ Demo</a> |
-| <strong>Horalis</strong> <sub>(código privado)</sub> | Apontamento de horas multiusuário com RBAC, controle de SLA, dashboards e exportação em Excel | Next.js · Prisma · JWT | <a href="https://apontamento-horas.vercel.app" target="_blank" rel="noopener noreferrer">▶ Demo</a> |
-| <a href="https://github.com/fabriciojunio/MyCondPets" target="_blank" rel="noopener noreferrer"><strong>MyCondPets</strong></a> | Gestão de pets em condomínios com Google OAuth e painel admin | Next.js · NextAuth · Supabase | <a href="https://mycondpets.vercel.app" target="_blank" rel="noopener noreferrer">▶ Demo</a> |
-| <a href="https://github.com/fabriciojunio/KoraCRM" target="_blank" rel="noopener noreferrer"><strong>KoraCRM</strong></a> | CRM com pipeline de vendas Kanban, gestão de contatos e dashboard analítico | Laravel 11 · PHP · React | <a href="https://koracrm-frontend.vercel.app" target="_blank" rel="noopener noreferrer">▶ Demo</a> |
+| <a href="https://github.com/fabriciojunio/ConectAgente" target="_blank" rel="noopener noreferrer"><strong>ConectAgente</strong></a> | App mobile offline-first para Agentes de Saúde do SUS | React Native · Expo · Supabase | <a href="https://conectagente-web.vercel.app" target="_blank" rel="noopener noreferrer">Demo</a> |
+| <strong>Horalis</strong> <sub>(código privado)</sub> | Apontamento de horas multiusuário com RBAC, controle de SLA, dashboards e exportação em Excel | Next.js · Prisma · JWT | <a href="https://apontamento-horas.vercel.app" target="_blank" rel="noopener noreferrer">Demo</a> |
+| <a href="https://github.com/fabriciojunio/MyCondPets" target="_blank" rel="noopener noreferrer"><strong>MyCondPets</strong></a> | Gestão de pets em condomínios com Google OAuth e painel admin | Next.js · NextAuth · Supabase | <a href="https://mycondpets.vercel.app" target="_blank" rel="noopener noreferrer">Demo</a> |
+| <a href="https://github.com/fabriciojunio/KoraCRM" target="_blank" rel="noopener noreferrer"><strong>KoraCRM</strong></a> | CRM com pipeline de vendas Kanban, gestão de contatos e dashboard analítico | Laravel 11 · PHP · React | <a href="https://koracrm-frontend.vercel.app" target="_blank" rel="noopener noreferrer">Demo</a> |
 | <a href="https://github.com/fabriciojunio/quantbot-ml" target="_blank" rel="noopener noreferrer"><strong>Quantbot ML</strong></a> | Trading quantitativo com ensemble de 3 modelos e análise FinBERT | Python · XGBoost · PyTorch | - |
 | <a href="https://github.com/fabriciojunio/bot-sinais" target="_blank" rel="noopener noreferrer"><strong>GolData Pro</strong></a> | Sinais de value bets com ML Dixon-Coles + Elo, Bot Telegram e histórico auditável por SHA-256 | FastAPI · Python · Next.js | - |
 | <a href="https://github.com/fabriciojunio/mente-viva" target="_blank" rel="noopener noreferrer"><strong>Mente Viva</strong></a> | App de exercícios cognitivos para prevenção do Alzheimer, 7 jogos, APK via GitHub Actions | React Native · Expo SDK 50 | - |
-| <a href="https://github.com/fabriciojunio/mundo-do-lukinha" target="_blank" rel="noopener noreferrer"><strong>Mundo do Lukinha</strong></a> | Plataforma de jogos educativos para crianças de 3 a 14 anos, com adaptação automática por faixa etária | Next.js 14 · Zustand · TypeScript | <a href="https://mundo-do-lukinha.vercel.app" target="_blank" rel="noopener noreferrer">▶ Demo</a> |
-| <a href="https://github.com/fabriciojunio/authcore" target="_blank" rel="noopener noreferrer"><strong>AuthCore</strong></a> | Plataforma de autenticação com JWT RS256, 2FA TOTP, RBAC, audit log e Docker | Node.js · React 18 · PostgreSQL · Redis | <a href="https://frontend-tan-mu-38.vercel.app" target="_blank" rel="noopener noreferrer">▶ Demo</a> |
+| <a href="https://github.com/fabriciojunio/mundo-do-lukinha" target="_blank" rel="noopener noreferrer"><strong>Mundo do Lukinha</strong></a> | Plataforma de jogos educativos para crianças de 3 a 14 anos, com adaptação automática por faixa etária | Next.js 14 · Zustand · TypeScript | <a href="https://mundo-do-lukinha.vercel.app" target="_blank" rel="noopener noreferrer">Demo</a> |
+| <a href="https://github.com/fabriciojunio/authcore" target="_blank" rel="noopener noreferrer"><strong>AuthCore</strong></a> | Plataforma de autenticação com JWT RS256, 2FA TOTP, RBAC, audit log e Docker | Node.js · React 18 · PostgreSQL · Redis | <a href="https://frontend-tan-mu-38.vercel.app" target="_blank" rel="noopener noreferrer">Demo</a> |
 
----
-
-## 🎯 Foco Atual
-
-| Área | O que estou fazendo |
-|---|---|
-| 💼 **Trabalho** | Sistemas web e APIs REST na Nexum Tecnologia (Bauru, SP) |
-| 🤖 **IA Aplicada** | LLMs locais com Ollama, pipelines ML com scikit-learn e PyTorch |
-| ☁️ **Cloud & DevOps** | Estudando MLOps, Cloud Architecture e orquestração com Docker |
-| 📱 **Mobile** | React Native + Expo: apps offline-first de saúde (ConectAgente) e cognitivo (Mente Viva) |
-| 🌱 **Inovação** | Projetos na Incubadora Saruê – UNESP Bauru |
-
----
-
-## 🎓 Formação & Experiência
-
-- 🎓 **Bacharelado em Ciência da Computação**, UNISAGRADO (2024-2027)
-- 🏢 **Desenvolvedor FullStack** na Nexum Tecnologia, Bauru SP
-- 🌱 **Incubadora Saruê**, UNESP Bauru (projetos de inovação)
-
----
-
-<div align="center">
-  <i>Construindo sistemas que resolvem problemas reais, com código limpo e IA aplicada.</i>
-</div>
+Alguns repositórios são privados. O restante do que faço está no <a href="https://fabriciojunio.vercel.app" target="_blank" rel="noopener noreferrer">portfólio</a>.
