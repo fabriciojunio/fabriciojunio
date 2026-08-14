@@ -3,7 +3,7 @@
 Desenvolvedor FullStack em Bauru/SP. Trabalho com Java/Spring, TypeScript e Python, e venho colocando IA em projetos reais: LLMs locais com Ollama e pipelines de Machine Learning com scikit-learn e PyTorch.
 
 <a href="https://linkedin.com/in/fabríciojúnio" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="https://fabriciojunio.vercel.app" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Portfólio-FF6B6B?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfólio" /></a>
+<a href="https://portfolio-a3qn.vercel.app" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Portfólio-FF6B6B?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfólio" /></a>
 <a href="mailto:junioad555@gmail.com" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 
 ## Sobre
@@ -94,4 +94,4 @@ Desenvolvimento de Jogos Digitais, feitos em grupo.
 | <a href="https://github.com/fabriciojunio/kaida-raizes-do-esquecimento" target="_blank" rel="noopener noreferrer"><strong>Kaida</strong></a> | Metroidvania 2D com seis cenas, habilidades que destrancam caminhos e chefe com fases. O jogo inteiro é montado por scripts de editor | Unity 2022.3 · C# |
 | <a href="https://github.com/fabriciojunio/LaboratorioVR" target="_blank" rel="noopener noreferrer"><strong>Laboratório VR</strong></a> | Laboratório de química em realidade virtual, com interação por gaze e teleporte por tempo de olhar. Build para Android e Google Cardboard | Unity · C# · Google Cardboard |
 
-Alguns repositórios são privados. O restante do que faço está no <a href="https://fabriciojunio.vercel.app" target="_blank" rel="noopener noreferrer">portfólio</a>.
+Alguns repositórios são privados. O restante do que faço está no <a href="https://portfolio-a3qn.vercel.app" target="_blank" rel="noopener noreferrer">portfólio</a>.
