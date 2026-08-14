@@ -10,7 +10,7 @@ Desenvolvedor FullStack em Bauru/SP. Trabalho com Java/Spring, TypeScript e Pyth
 
 No dia a dia trabalho com sistemas web, APIs REST, automação de processos e integrações bancárias. A maior parte dos meus projetos gira em torno de duas coisas: back-end bem estruturado (Clean Architecture, testes, observabilidade) e IA aplicada, com foco em LLMs rodando local e modelos de ML. Nos últimos meses, três deles saíram do "projeto pessoal" e viraram produto indo para cliente: Balcão, Horalis e RegistraServiço.
 
-Estou no Bacharelado em Ciência da Computação na UNISAGRADO (2024-2027) e participo da Incubadora Saruê, na UNESP Bauru. No mobile, tenho trabalhado com React Native e Expo em apps offline-first (saúde e cognição). No momento estudo mais a fundo MLOps e arquitetura em nuvem.
+Estou no Bacharelado em Ciência da Computação na UNISAGRADO (2024-2027) e participo da Incubadora Saruê, na UNESP Bauru. Na faculdade, os trabalhos recentes são de visão computacional: medir batimentos cardíacos a partir de vídeo e contar veículos numa via. No mobile, tenho trabalhado com React Native e Expo em apps offline-first (saúde e cognição). No momento estudo mais a fundo MLOps e arquitetura em nuvem.
 
 ## Stack
 
@@ -47,6 +47,7 @@ Estou no Bacharelado em Ciência da Computação na UNISAGRADO (2024-2027) e par
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![XGBoost](https://img.shields.io/badge/XGBoost-AA4A44?style=for-the-badge&logo=xgboost&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
 ![pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 
 ### DevOps & Ferramentas
@@ -80,5 +81,17 @@ Estou no Bacharelado em Ciência da Computação na UNISAGRADO (2024-2027) e par
 | <a href="https://github.com/fabriciojunio/mente-viva" target="_blank" rel="noopener noreferrer"><strong>Mente Viva</strong></a> | App de exercícios cognitivos para prevenção do Alzheimer, 7 jogos, APK via GitHub Actions | React Native · Expo SDK 50 | - |
 | <a href="https://github.com/fabriciojunio/mundo-do-lukinha" target="_blank" rel="noopener noreferrer"><strong>Mundo do Lukinha</strong></a> | Plataforma de jogos educativos para crianças de 3 a 14 anos, com adaptação automática por faixa etária | Next.js 14 · Zustand · TypeScript | <a href="https://mundo-do-lukinha.vercel.app" target="_blank" rel="noopener noreferrer">Demo</a> |
 | <a href="https://github.com/fabriciojunio/authcore" target="_blank" rel="noopener noreferrer"><strong>AuthCore</strong></a> | Plataforma de autenticação com JWT RS256, 2FA TOTP, RBAC, audit log e Docker | Node.js · React 18 · PostgreSQL · Redis | <a href="https://frontend-tan-mu-38.vercel.app" target="_blank" rel="noopener noreferrer">Demo</a> |
+
+## Faculdade
+
+Trabalhos das disciplinas de Processamento de Imagens e Sinais e de
+Desenvolvimento de Jogos Digitais, feitos em grupo.
+
+| Projeto | Descrição | Stack |
+|---|---|---|
+| <a href="https://github.com/fabriciojunio/cardiocam" target="_blank" rel="noopener noreferrer"><strong>Cardiocam</strong></a> | Mede frequência cardíaca por vídeo, sem encostar na pessoa (rPPG). Quatro algoritmos da literatura comparados no mesmo pipeline: GREEN, CHROM, POS e ICA | Python · OpenCV · NumPy · SciPy |
+| <a href="https://github.com/fabriciojunio/contaflux" target="_blank" rel="noopener noreferrer"><strong>Contaflux</strong></a> | Conta veículos que cruzam uma linha em vídeo de câmera fixa. A linha é deduzida do próprio tráfego, e o veículo pode ser achado por movimento ou por reconhecimento | Python · OpenCV · YOLO11 |
+| <a href="https://github.com/fabriciojunio/kaida-raizes-do-esquecimento" target="_blank" rel="noopener noreferrer"><strong>Kaida</strong></a> | Metroidvania 2D com seis cenas, habilidades que destrancam caminhos e chefe com fases. O jogo inteiro é montado por scripts de editor | Unity 2022.3 · C# |
+| <a href="https://github.com/fabriciojunio/LaboratorioVR" target="_blank" rel="noopener noreferrer"><strong>Laboratório VR</strong></a> | Laboratório de química em realidade virtual, com interação por gaze e teleporte por tempo de olhar. Build para Android e Google Cardboard | Unity · C# · Google Cardboard |
 
 Alguns repositórios são privados. O restante do que faço está no <a href="https://fabriciojunio.vercel.app" target="_blank" rel="noopener noreferrer">portfólio</a>.
