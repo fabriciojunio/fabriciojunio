@@ -84,11 +84,12 @@ Estou no Bacharelado em Ciência da Computação na UNISAGRADO (2024-2027) e par
 
 ## Faculdade
 
-Trabalhos das disciplinas de Processamento de Imagens e Sinais e de
-Desenvolvimento de Jogos Digitais, feitos em grupo.
+Trabalhos das disciplinas de Inteligência Artificial, Processamento de Imagens
+e Sinais e Desenvolvimento de Jogos Digitais, feitos em grupo.
 
 | Projeto | Descrição | Stack |
 |---|---|---|
+| <a href="https://github.com/fabriciojunio/permaneia" target="_blank" rel="noopener noreferrer"><strong>PermaneIA</strong></a> | Assistente de estudos que responde só com base nos documentos oficiais da disciplina, citando a fonte e admitindo quando não sabe, e painel que ordena a turma por risco de evasão calculado por lógica fuzzy. O motor de inferência de Mamdani foi escrito do zero | Next.js 15 · pgvector · Gemini · TypeScript |
 | <a href="https://github.com/fabriciojunio/cardiocam" target="_blank" rel="noopener noreferrer"><strong>Cardiocam</strong></a> | Mede frequência cardíaca por vídeo, sem encostar na pessoa (rPPG). Quatro algoritmos da literatura comparados no mesmo pipeline: GREEN, CHROM, POS e ICA | Python · OpenCV · NumPy · SciPy |
 | <a href="https://github.com/fabriciojunio/contaflux" target="_blank" rel="noopener noreferrer"><strong>Contaflux</strong></a> | Conta veículos que cruzam uma linha em vídeo de câmera fixa. A linha é deduzida do próprio tráfego, e o veículo pode ser achado por movimento ou por reconhecimento | Python · OpenCV · YOLO11 |
 | <a href="https://github.com/fabriciojunio/kaida-raizes-do-esquecimento" target="_blank" rel="noopener noreferrer"><strong>Kaida</strong></a> | Metroidvania 2D com seis cenas, habilidades que destrancam caminhos e chefe com fases. O jogo inteiro é montado por scripts de editor | Unity 2022.3 · C# |
