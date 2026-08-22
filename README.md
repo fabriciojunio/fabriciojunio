@@ -10,7 +10,7 @@ Desenvolvedor FullStack em Bauru/SP. Trabalho com Java/Spring, TypeScript e Pyth
 
 No dia a dia trabalho com sistemas web, APIs REST, automação de processos e integrações bancárias. A maior parte dos meus projetos gira em torno de duas coisas: back-end bem estruturado (Clean Architecture, testes, observabilidade) e IA aplicada, com foco em LLMs rodando local e modelos de ML. Nos últimos meses, três deles saíram do "projeto pessoal" e viraram produto indo para cliente: Balcão, Horalis e RegistraServiço.
 
-Estou no Bacharelado em Ciência da Computação na UNISAGRADO (2024-2027) e participo da Incubadora Saruê, na UNESP Bauru. Na faculdade, os trabalhos recentes são de visão computacional: medir batimentos cardíacos a partir de vídeo e contar veículos numa via. No mobile, tenho trabalhado com React Native e Expo em apps offline-first (saúde e cognição). No momento estudo mais a fundo MLOps e arquitetura em nuvem.
+Estou no Bacharelado em Ciência da Computação na UNISAGRADO (2024-2027) e participo da Incubadora Saruê, na UNESP Bauru. Na faculdade, os trabalhos recentes são de visão computacional (medir batimentos cardíacos a partir de vídeo e contar veículos numa via) e de jogos em Unity, montados por scripts de editor em vez de arrastados na tela. No mobile, tenho trabalhado com React Native e Expo em apps offline-first (saúde e cognição). No momento estudo mais a fundo MLOps e arquitetura em nuvem.
 
 ## Stack
 
@@ -85,14 +85,16 @@ Estou no Bacharelado em Ciência da Computação na UNISAGRADO (2024-2027) e par
 ## Faculdade
 
 Trabalhos das disciplinas de Inteligência Artificial, Processamento de Imagens
-e Sinais e Desenvolvimento de Jogos Digitais, feitos em grupo.
+e Sinais e Desenvolvimento de Jogos Digitais. Os de imagem e o de IA foram
+feitos em grupo; o Bicudo é individual.
 
 | Projeto | Descrição | Stack |
 |---|---|---|
 | <a href="https://github.com/fabriciojunio/permaneia" target="_blank" rel="noopener noreferrer"><strong>PermaneIA</strong></a> | Assistente de estudos que responde só com base nos documentos oficiais da disciplina, citando a fonte e admitindo quando não sabe, e painel que ordena a turma por risco de evasão calculado por lógica fuzzy. O motor de inferência de Mamdani foi escrito do zero | Next.js 15 · pgvector · Gemini · TypeScript |
 | <a href="https://github.com/fabriciojunio/cardiocam" target="_blank" rel="noopener noreferrer"><strong>Cardiocam</strong></a> | Mede frequência cardíaca por vídeo, sem encostar na pessoa (rPPG). Quatro algoritmos da literatura comparados no mesmo pipeline: GREEN, CHROM, POS e ICA | Python · OpenCV · NumPy · SciPy |
 | <a href="https://github.com/fabriciojunio/contaflux" target="_blank" rel="noopener noreferrer"><strong>Contaflux</strong></a> | Conta veículos que cruzam uma linha em vídeo de câmera fixa. A linha é deduzida do próprio tráfego, e o veículo pode ser achado por movimento ou por reconhecimento | Python · OpenCV · YOLO11 |
-| <a href="https://github.com/fabriciojunio/kaida-raizes-do-esquecimento" target="_blank" rel="noopener noreferrer"><strong>Kaida</strong></a> | Metroidvania 2D com seis cenas, habilidades que destrancam caminhos e chefe com fases. O jogo inteiro é montado por scripts de editor | Unity 2022.3 · C# |
+| <a href="https://github.com/fabriciojunio/kaida" target="_blank" rel="noopener noreferrer"><strong>Kaida</strong></a> | Metroidvania 2D com seis cenas, habilidades que destrancam caminhos, três tentativas por partida e chefe em confronto único. O jogo inteiro é montado por scripts de editor | Unity 2022.3 · C# |
+| <a href="https://github.com/fabriciojunio/bicudo" target="_blank" rel="noopener noreferrer"><strong>Bicudo</strong></a> | Jogo de um botão na linha do Flappy Bird. O impulso troca a velocidade vertical em vez de somar a ela, e o cenário mede a tela ao rodar para se ajustar de 4:3 a ultrawide | Unity 2022.3 · C# |
 | <a href="https://github.com/fabriciojunio/LaboratorioVR" target="_blank" rel="noopener noreferrer"><strong>Laboratório VR</strong></a> | Laboratório de química em realidade virtual, com interação por gaze e teleporte por tempo de olhar. Build para Android e Google Cardboard | Unity · C# · Google Cardboard |
 
 Alguns repositórios são privados. O restante do que faço está no <a href="https://portfolio-a3qn.vercel.app" target="_blank" rel="noopener noreferrer">portfólio</a>.
