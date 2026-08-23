@@ -1,100 +1,105 @@
 # Fabrício Júnio
 
-Desenvolvedor FullStack em Bauru/SP. Trabalho com Java/Spring, TypeScript e Python, e venho colocando IA em projetos reais: LLMs locais com Ollama e pipelines de Machine Learning com scikit-learn e PyTorch.
+Desenvolvedor back-end em Bauru/SP. Trabalho com Java, JavaScript e SQL sobre processos de
+negócio que já estão rodando em empresa grande: integrações, automação e regra de negócio em
+sistema vivo, com instâncias em andamento no momento em que a alteração sobe.
 
-<a href="https://linkedin.com/in/fabríciojúnio" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="https://portfolio-a3qn.vercel.app" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Portfólio-FF6B6B?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfólio" /></a>
-<a href="mailto:junioad555@gmail.com" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+[LinkedIn](https://linkedin.com/in/fabríciojúnio) · [Portfólio](https://portfolio-a3qn.vercel.app) · junioad555@gmail.com
 
-## Sobre
+## O que eu faço
 
-No dia a dia trabalho com sistemas web, APIs REST, automação de processos e integrações bancárias. A maior parte dos meus projetos gira em torno de duas coisas: back-end bem estruturado (Clean Architecture, testes, observabilidade) e IA aplicada, com foco em LLMs rodando local e modelos de ML. Nos últimos meses, três deles saíram do "projeto pessoal" e viraram produto indo para cliente: Balcão, Horalis e RegistraServiço.
+Hoje sou desenvolvedor na área de Serviços da Digihub Tecnologia, que faz parte do grupo Lecom.
+A carteira é de treze clientes de seguros, saúde, cooperativismo de crédito, auditoria e
+judiciário. Meu dia é receber um chamado, entender o processo, medir o que está acontecendo em
+produção, propor a solução, desenvolver, homologar e publicar.
 
-Estou no Bacharelado em Ciência da Computação na UNISAGRADO (2024-2027) e participo da Incubadora Saruê, na UNESP Bauru. Na faculdade, os trabalhos recentes são de visão computacional (medir batimentos cardíacos a partir de vídeo e contar veículos numa via) e de jogos em Unity, montados por scripts de editor em vez de arrastados na tela. No mobile, tenho trabalhado com React Native e Expo em apps offline-first (saúde e cognição). No momento estudo mais a fundo MLOps e arquitetura em nuvem.
+Na prática isso é integração e robô em Java, regra de tela em JavaScript sobre a API do
+formulário da plataforma, roteamento de processo, SQL de diagnóstico e automação RPA.
 
-## Stack
+O que eu levo para qualquer código que escrevo, dentro ou fora do trabalho: eu meço antes de
+mexer. Reproduzo a regra atual, rodo contra o histórico real e só considero o modelo válido
+quando ele acerta o passado. Se a simulação não prevê o que já aconteceu, ela não serve para
+prever o que vai acontecer.
 
-### Linguagens
-![Java](https://img.shields.io/badge/Java_21-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python_3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP_8.2-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-
-### Front-end
-![Next.js](https://img.shields.io/badge/Next.js_15-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React_19-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-
-### Back-end
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Laravel](https://img.shields.io/badge/Laravel_11-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-
-### Banco de Dados & Cache
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
-
-### IA & Machine Learning
-![Ollama](https://img.shields.io/badge/Ollama_LLM-000000?style=for-the-badge&logo=ollama&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![XGBoost](https://img.shields.io/badge/XGBoost-AA4A44?style=for-the-badge&logo=xgboost&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-![pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-
-### DevOps & Ferramentas
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)
-![Turborepo](https://img.shields.io/badge/Turborepo-EF4444?style=for-the-badge&logo=turborepo&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-
----
+**Stack principal:** Java · Spring Boot · JavaScript · TypeScript · SQL · PostgreSQL · Docker
+**Também uso:** Node/NestJS · Next.js · Python · React Native
 
 ## Projetos
 
-| Projeto | Descrição | Stack | Demo |
-|---|---|---|---|
-| <strong>Balcão</strong> <sub>(código privado)</sub> | Agente de vendas e trocas no WhatsApp para lojas de celular. O modelo de linguagem não escreve números: preço, parcela e valor de troca saem do domínio, e um auditor confere cada algarismo antes do envio | Node 20 · TypeScript · Fastify · Prisma | - |
-| <strong>Guarda Banco</strong> <sub>(código privado)</sub> | Trava no servidor de banco contra DELETE e UPDATE acidentais, por limite de linhas afetadas por comando. Vale em qualquer cliente, do DBeaver ao psql | PostgreSQL · PL/pgSQL · MySQL · SQL Server | - |
-| <strong>Sintonia</strong> <sub>(código privado)</sub> | Rede social em que a conversa gira em torno da música que está tocando. Mensagens efêmeras, tocando agora em tempo real e gamificação, com API, site e app no mesmo monorepo | NestJS · Next.js 15 · Expo · Turborepo | - |
-| <strong>RegistraServiço</strong> <sub>(código privado)</sub> | Registro de prestação de serviços multi-tenant. Os tipos de serviço e os campos de cada formulário são configurados pela organização, não escritos no código | Next.js 14 · Prisma · PostgreSQL · Zod | <a href="https://registraservico.vercel.app" target="_blank" rel="noopener noreferrer">Demo</a> |
-| <a href="https://github.com/fabriciojunio/paiol-tech" target="_blank" rel="noopener noreferrer"><strong>Paiol Tech</strong></a> | SaaS de gestão de dívidas rurais, monorepo Turborepo, PWA offline-first, NestJS CQRS | Next.js · NestJS · pnpm | <a href="https://paiol-tech.vercel.app" target="_blank" rel="noopener noreferrer">Demo</a> |
-| <a href="https://github.com/fabriciojunio/jis" target="_blank" rel="noopener noreferrer"><strong>JIS</strong></a> | Agregador de vagas de várias fontes reais, com scoring por região/stack e geração de currículo no próprio app | Next.js 15 · TypeScript · Vercel | <a href="https://jis-frontend-mocha.vercel.app" target="_blank" rel="noopener noreferrer">Demo</a> |
-| <a href="https://github.com/fabriciojunio/codereview-ai" target="_blank" rel="noopener noreferrer"><strong>CodeReview AI</strong></a> | Análise de código com LLM local (Ollama), fila RabbitMQ e streaming SSE | Java 21 · Ollama · Redis | - |
-| <a href="https://github.com/fabriciojunio/goldata" target="_blank" rel="noopener noreferrer"><strong>GolData</strong></a> | Plataforma analytics de futebol com xG, redes de passe e ML preditivo | Python · FastAPI · XGBoost | - |
-| <a href="https://github.com/fabriciojunio/ConectAgente" target="_blank" rel="noopener noreferrer"><strong>ConectAgente</strong></a> | App mobile offline-first para Agentes de Saúde do SUS | React Native · Expo · Supabase | <a href="https://conectagente-web.vercel.app" target="_blank" rel="noopener noreferrer">Demo</a> |
-| <strong>Horalis</strong> <sub>(código privado)</sub> | Apontamento de horas multiusuário com RBAC, controle de SLA, dashboards e exportação em Excel | Next.js · Prisma · JWT | <a href="https://apontamento-horas.vercel.app" target="_blank" rel="noopener noreferrer">Demo</a> |
-| <a href="https://github.com/fabriciojunio/MyCondPets" target="_blank" rel="noopener noreferrer"><strong>MyCondPets</strong></a> | Gestão de pets em condomínios com Google OAuth e painel admin | Next.js · NextAuth · Supabase | <a href="https://mycondpets.vercel.app" target="_blank" rel="noopener noreferrer">Demo</a> |
-| <a href="https://github.com/fabriciojunio/KoraCRM" target="_blank" rel="noopener noreferrer"><strong>KoraCRM</strong></a> | CRM com pipeline de vendas Kanban, gestão de contatos e dashboard analítico | Laravel 11 · PHP · React | <a href="https://koracrm-frontend.vercel.app" target="_blank" rel="noopener noreferrer">Demo</a> |
-| <a href="https://github.com/fabriciojunio/quantbot-ml" target="_blank" rel="noopener noreferrer"><strong>Quantbot ML</strong></a> | Renda passiva por dividendos (Barsi/Bazin) que opera sozinha com dinheiro simulado, aprende com os próprios acertos e roda todo dia na nuvem. Sentimento das notícias com FinBERT-PT-BR | Python · PyTorch · GitHub Actions | - |
-| <a href="https://github.com/fabriciojunio/bot-sinais" target="_blank" rel="noopener noreferrer"><strong>GolData Pro</strong></a> | Sinais de value bets com ML Dixon-Coles + Elo, Bot Telegram e histórico auditável por SHA-256 | FastAPI · Python · Next.js | - |
-| <a href="https://github.com/fabriciojunio/mente-viva" target="_blank" rel="noopener noreferrer"><strong>Mente Viva</strong></a> | App de exercícios cognitivos para prevenção do Alzheimer, 7 jogos, APK via GitHub Actions | React Native · Expo SDK 50 | - |
-| <a href="https://github.com/fabriciojunio/mundo-do-lukinha" target="_blank" rel="noopener noreferrer"><strong>Mundo do Lukinha</strong></a> | Plataforma de jogos educativos para crianças de 3 a 14 anos, com adaptação automática por faixa etária | Next.js 14 · Zustand · TypeScript | <a href="https://mundo-do-lukinha.vercel.app" target="_blank" rel="noopener noreferrer">Demo</a> |
-| <a href="https://github.com/fabriciojunio/authcore" target="_blank" rel="noopener noreferrer"><strong>AuthCore</strong></a> | Plataforma de autenticação com JWT RS256, 2FA TOTP, RBAC, audit log e Docker | Node.js · React 18 · PostgreSQL · Redis | <a href="https://frontend-tan-mu-38.vercel.app" target="_blank" rel="noopener noreferrer">Demo</a> |
+Os que eu apresentaria numa entrevista, nesta ordem.
+
+### [CodeReview AI](https://github.com/fabriciojunio/codereview-ai)
+`Java 21 · Spring Boot 3.3 · RabbitMQ · Redis · PostgreSQL · Ollama`
+
+Análise de código com modelo de linguagem rodando local, sem mandar código para API externa.
+A submissão devolve um ticket e cai numa fila do RabbitMQ, o resultado volta por Server-Sent
+Events conforme o modelo gera, e o Redis guarda 24h para que o mesmo código não seja analisado
+duas vezes. É o projeto onde a decisão de arquitetura pesa mais que a funcionalidade.
+
+### [Paiol Tech](https://github.com/fabriciojunio/paiol-tech)
+`NestJS · CQRS · Turborepo · Next.js · PostgreSQL`
+
+SaaS de gestão de dívidas rurais, monorepo com API e PWA. Separei comando de consulta com CQRS
+porque o volume de leitura de posição consolidada não tem nada a ver com o de escrita de
+lançamento. [Demo](https://paiol-tech.vercel.app)
+
+### [AuthCore](https://github.com/fabriciojunio/authcore)
+`Node · TypeScript · PostgreSQL · Redis · Docker`
+
+Autenticação com JWT RS256, 2FA por TOTP, RBAC e registro de auditoria. Chave assimétrica para
+que o serviço que valida o token não precise do segredo que o assina.
+[Demo](https://frontend-tan-mu-38.vercel.app)
+
+### [QuantBot ML](https://github.com/fabriciojunio/quantbot-ml)
+`Python · XGBoost · PyTorch · FastAPI · GitHub Actions`
+
+Carteira de dividendos que opera com dinheiro simulado, decide sozinha e roda todo dia na
+nuvem. O que interessa aqui não é o retorno, é a disciplina: validação walk-forward, sem olhar
+dado do futuro no treino, e pipeline que quebra o build quando o teste falha.
+
+### [ConectAgente](https://github.com/fabriciojunio/ConectAgente)
+`React Native · Expo · SQLite · Supabase`
+
+App para Agente Comunitário de Saúde do SUS, que trabalha em rua sem sinal. Escreve local em
+SQLite e sincroniza depois com padrão outbox, com retentativa e resolução de conflito. Nasceu
+de iniciação científica e está incubado na Saruê, na UNESP Bauru. [Demo](https://conectagente-web.vercel.app)
 
 ## Faculdade
 
-Trabalhos das disciplinas de Inteligência Artificial, Processamento de Imagens
-e Sinais e Desenvolvimento de Jogos Digitais. Os de imagem e o de IA foram
-feitos em grupo; o Bicudo é individual.
+Ciência da Computação na UNISAGRADO, 2024 a 2027. Trabalhos das disciplinas de Inteligência
+Artificial, Processamento de Imagens e Sinais e Desenvolvimento de Jogos.
 
-| Projeto | Descrição | Stack |
-|---|---|---|
-| <a href="https://github.com/fabriciojunio/permaneia" target="_blank" rel="noopener noreferrer"><strong>PermaneIA</strong></a> | Assistente de estudos que responde só com base nos documentos oficiais da disciplina, citando a fonte e admitindo quando não sabe, e painel que ordena a turma por risco de evasão calculado por lógica fuzzy. O motor de inferência de Mamdani foi escrito do zero | Next.js 15 · pgvector · Gemini · TypeScript |
-| <a href="https://github.com/fabriciojunio/cardiocam" target="_blank" rel="noopener noreferrer"><strong>Cardiocam</strong></a> | Mede frequência cardíaca por vídeo, sem encostar na pessoa (rPPG). Quatro algoritmos da literatura comparados no mesmo pipeline: GREEN, CHROM, POS e ICA | Python · OpenCV · NumPy · SciPy |
-| <a href="https://github.com/fabriciojunio/contaflux" target="_blank" rel="noopener noreferrer"><strong>Contaflux</strong></a> | Conta veículos que cruzam uma linha em vídeo de câmera fixa. A linha é deduzida do próprio tráfego, e o veículo pode ser achado por movimento ou por reconhecimento | Python · OpenCV · YOLO11 |
-| <a href="https://github.com/fabriciojunio/kaida" target="_blank" rel="noopener noreferrer"><strong>Kaida</strong></a> | Metroidvania 2D com seis cenas, habilidades que destrancam caminhos, três tentativas por partida e chefe em confronto único. O jogo inteiro é montado por scripts de editor | Unity 2022.3 · C# |
-| <a href="https://github.com/fabriciojunio/bicudo" target="_blank" rel="noopener noreferrer"><strong>Bicudo</strong></a> | Jogo de um botão na linha do Flappy Bird. O impulso troca a velocidade vertical em vez de somar a ela, e o cenário mede a tela ao rodar para se ajustar de 4:3 a ultrawide | Unity 2022.3 · C# |
-| <a href="https://github.com/fabriciojunio/LaboratorioVR" target="_blank" rel="noopener noreferrer"><strong>Laboratório VR</strong></a> | Laboratório de química em realidade virtual, com interação por gaze e teleporte por tempo de olhar. Build para Android e Google Cardboard | Unity · C# · Google Cardboard |
+| Projeto | O que é |
+|---|---|
+| [PermaneIA](https://github.com/fabriciojunio/permaneia) | Assistente que responde só com base no material da disciplina, citando a fonte e admitindo quando não sabe, e painel de risco de evasão por lógica fuzzy. O motor de inferência de Mamdani foi escrito do zero, e a suíte tem 2.093 testes |
+| [Cardiocam](https://github.com/fabriciojunio/cardiocam) | Frequência cardíaca medida por vídeo, sem encostar na pessoa. Quatro algoritmos da literatura comparados no mesmo pipeline |
+| [Contaflux](https://github.com/fabriciojunio/contaflux) | Contagem de veículos em vídeo de câmera fixa, com a linha de contagem deduzida do próprio tráfego |
+| [Kaida](https://github.com/fabriciojunio/kaida) | Metroidvania 2D em Unity, com o jogo inteiro montado por scripts de editor |
+| [Bicudo](https://github.com/fabriciojunio/bicudo) | Jogo de um botão em Unity, individual |
+| [Laboratório VR](https://github.com/fabriciojunio/LaboratorioVR) | Laboratório de química em realidade virtual, com interação por gaze |
 
-Alguns repositórios são privados. O restante do que faço está no <a href="https://portfolio-a3qn.vercel.app" target="_blank" rel="noopener noreferrer">portfólio</a>.
+## Código fechado
+
+Três produtos que já estão indo para cliente, então o repositório é privado.
+
+**Balcão.** Atendimento de venda e troca de celular no WhatsApp. O modelo de linguagem não
+escreve número: preço, parcela e valor de troca saem do domínio, e um auditor confere cada
+algarismo antes de enviar. Node · TypeScript · Fastify · Prisma
+
+**Horalis.** Apontamento de horas multiusuário com RBAC, controle de SLA e exportação em Excel.
+Next.js · Prisma · JWT · [Demo](https://apontamento-horas.vercel.app)
+
+**RegistraServiço.** Registro de prestação de serviço multi-tenant, em que a organização
+configura os tipos e os campos em vez de o código trazer isso pronto. Next.js · Prisma ·
+PostgreSQL · [Demo](https://registraservico.vercel.app)
+
+## Outros
+
+Projetos anteriores, que deixo públicos mas não são o que eu faço hoje:
+[GolData](https://github.com/fabriciojunio/goldata) e
+[GolData Pro](https://github.com/fabriciojunio/bot-sinais) (analytics de futebol com ML),
+[JIS](https://github.com/fabriciojunio/jis) (agregador de vagas),
+[KoraCRM](https://github.com/fabriciojunio/KoraCRM) (CRM em Laravel),
+[MyCondPets](https://github.com/fabriciojunio/MyCondPets),
+[Mente Viva](https://github.com/fabriciojunio/mente-viva),
+[Mundo do Lukinha](https://github.com/fabriciojunio/mundo-do-lukinha).
