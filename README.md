@@ -1,68 +1,72 @@
 # Fabrício Júnio
 
-Desenvolvedor back-end em Bauru/SP. Trabalho com Java, JavaScript e SQL sobre processos de
-negócio que já estão rodando em empresa grande: integrações, automação e regra de negócio em
-sistema vivo, com instâncias em andamento no momento em que a alteração sobe.
+Desenvolvedor back-end em Bauru/SP. Java e Spring Boot, integração e sistemas que conversam por
+evento. No trabalho, processos que já estão rodando em empresa grande, com instâncias em
+andamento no momento em que a alteração sobe.
 
 [LinkedIn](https://linkedin.com/in/fabríciojúnio) · [Portfólio](https://portfolio-a3qn.vercel.app) · junioad555@gmail.com
 
 ## O que eu faço
 
-Hoje sou desenvolvedor na área de Serviços da Digihub Tecnologia, que faz parte do grupo Lecom.
-A carteira é de treze clientes de seguros, saúde, cooperativismo de crédito, auditoria e
-judiciário. Meu dia é receber um chamado, entender o processo, medir o que está acontecendo em
-produção, propor a solução, desenvolver, homologar e publicar.
+Sou desenvolvedor na área de Serviços da Digihub Tecnologia, do grupo Lecom, atendendo treze
+clientes de seguros, saúde, cooperativismo de crédito, auditoria e judiciário. O dia é receber
+um chamado, entender o processo, medir o que acontece em produção, propor, desenvolver,
+homologar e publicar. Na prática: integração e robô em Java, regra de tela em JavaScript,
+roteamento de processo, SQL de diagnóstico e automação RPA.
 
-Na prática isso é integração e robô em Java, regra de tela em JavaScript sobre a API do
-formulário da plataforma, roteamento de processo, SQL de diagnóstico e automação RPA.
+O hábito que trouxe daí para todo código que escrevo: eu meço antes de mexer. Reproduzo a regra
+atual, rodo contra o histórico real e só confio no modelo quando ele acerta o passado. Se a
+simulação não prevê o que já aconteceu, não serve para prever o que vai acontecer.
 
-O que eu levo para qualquer código que escrevo, dentro ou fora do trabalho: eu meço antes de
-mexer. Reproduzo a regra atual, rodo contra o histórico real e só considero o modelo válido
-quando ele acerta o passado. Se a simulação não prevê o que já aconteceu, ela não serve para
-prever o que vai acontecer.
-
-**Stack principal:** Java · Spring Boot · JavaScript · TypeScript · SQL · PostgreSQL · Docker
-**Também uso:** Node/NestJS · Next.js · Python · React Native
+**Stack:** Java 21 · Spring Boot · Kafka · SQL · PostgreSQL · Docker · Kubernetes · AWS
+**Também uso:** Node/NestJS · TypeScript · Next.js · Python
 
 ## Projetos
 
-Os que eu apresentaria numa entrevista, nesta ordem.
+### [Feira do Comando](https://github.com/fabriciojunio/feira-do-comando)
+`Java 21 · Spring Boot · Kafka · PostgreSQL · MongoDB · Terraform · Kubernetes`
+
+Pedidos orientados a eventos. Quatro serviços com banco próprio, nenhum lendo tabela do outro.
+A saga precisa sobreviver a mensagem repetida, fora de ordem e atrasada, e o caso que mais deu
+trabalho foi a corrida em que o pagamento é aprovado durante o cancelamento. Outbox transacional
+com `SELECT FOR UPDATE SKIP LOCKED`, para rodar em várias instâncias, e consumidor idempotente
+pelo inbox. Concorrência provada com dez threads reais contra um PostgreSQL real, não com
+simulação: 108 pedidos por segundo, impressos na saída do build. A infraestrutura está em
+Terraform, com VPC de sub-rede privada, RDS, ECR e Kafka gerenciado.
+
+### [Vitrine Bauru](https://github.com/fabriciojunio/vitrine-bauru)
+`Java 21 · Spring Boot · Kafka · Amazon SNS e SQS · PostgreSQL · React 19`
+
+No ar, em parceria com a Secretaria de Desenvolvimento Econômico de Bauru. O transporte de
+eventos é uma interface com três adaptadores: Kafka onde existe corretor, Amazon SNS na
+implantação gerenciada, e entrega dentro do próprio processo quando não há corretor nenhum.
+Trocar o transporte muda a rede sem mexer nas garantias. A exclusão de dados pela LGPD é uma
+saga com prazo e reenvio, em que três serviços precisam confirmar antes de o pedido fechar.
+1.042 testes que sobem PostgreSQL e Kafka embarcados, sem exigir Docker instalado.
+[No ar](https://vitrine-bauru.vercel.app)
+
+### [Outorga](https://github.com/fabriciojunio/outorga)
+`Java · Spring Boot · Next.js · PostgreSQL`
+
+Streaming white-label multi-tenant em que a licença de exibição é invariante de domínio: não
+existe caminho de código que publique conteúdo sem ela. A regra não fica num `if` do
+controlador, fica no lugar onde não dá para desviar.
 
 ### [CodeReview AI](https://github.com/fabriciojunio/codereview-ai)
-`Java 21 · Spring Boot 3.3 · RabbitMQ · Redis · PostgreSQL · Ollama`
+`Java 21 · Spring Boot · RabbitMQ · Redis · PostgreSQL · Ollama`
 
-Análise de código com modelo de linguagem rodando local, sem mandar código para API externa.
-A submissão devolve um ticket e cai numa fila do RabbitMQ, o resultado volta por Server-Sent
-Events conforme o modelo gera, e o Redis guarda 24h para que o mesmo código não seja analisado
-duas vezes. É o projeto onde a decisão de arquitetura pesa mais que a funcionalidade.
-
-### [Paiol Tech](https://github.com/fabriciojunio/paiol-tech)
-`NestJS · CQRS · Turborepo · Next.js · PostgreSQL`
-
-SaaS de gestão de dívidas rurais, monorepo com API e PWA. Separei comando de consulta com CQRS
-porque o volume de leitura de posição consolidada não tem nada a ver com o de escrita de
-lançamento. [Demo](https://paiol-tech.vercel.app)
-
-### [AuthCore](https://github.com/fabriciojunio/authcore)
-`Node · TypeScript · PostgreSQL · Redis · Docker`
-
-Autenticação com JWT RS256, 2FA por TOTP, RBAC e registro de auditoria. Chave assimétrica para
-que o serviço que valida o token não precise do segredo que o assina.
-[Demo](https://frontend-tan-mu-38.vercel.app)
-
-### [QuantBot ML](https://github.com/fabriciojunio/quantbot-ml)
-`Python · XGBoost · PyTorch · FastAPI · GitHub Actions`
-
-Carteira de dividendos que opera com dinheiro simulado, decide sozinha e roda todo dia na
-nuvem. O que interessa aqui não é o retorno, é a disciplina: validação walk-forward, sem olhar
-dado do futuro no treino, e pipeline que quebra o build quando o teste falha.
+Análise de código com modelo de linguagem rodando local, então o código não sai da rede. A
+submissão devolve um ticket e cai numa fila, o resultado volta por Server-Sent Events conforme o
+modelo gera, e o Redis guarda 24h pelo hash do código. 88 testes, os de integração com
+Testcontainers.
 
 ### [ConectAgente](https://github.com/fabriciojunio/ConectAgente)
 `React Native · Expo · SQLite · Supabase`
 
 App para Agente Comunitário de Saúde do SUS, que trabalha em rua sem sinal. Escreve local em
-SQLite e sincroniza depois com padrão outbox, com retentativa e resolução de conflito. Nasceu
-de iniciação científica e está incubado na Saruê, na UNESP Bauru. [Demo](https://conectagente-web.vercel.app)
+SQLite e sincroniza depois com padrão outbox, com retentativa e resolução de conflito. Nasceu de
+iniciação científica e está incubado na Saruê, na UNESP Bauru.
+[Demo](https://conectagente-web.vercel.app)
 
 ## Faculdade
 
@@ -80,7 +84,7 @@ Artificial, Processamento de Imagens e Sinais e Desenvolvimento de Jogos.
 
 ## Código fechado
 
-Três produtos que já estão indo para cliente, então o repositório é privado.
+Produtos que já estão indo para cliente, então o repositório é privado.
 
 **Balcão.** Atendimento de venda e troca de celular no WhatsApp. O modelo de linguagem não
 escreve número: preço, parcela e valor de troca saem do domínio, e um auditor confere cada
@@ -93,13 +97,19 @@ Next.js · Prisma · JWT · [Demo](https://apontamento-horas.vercel.app)
 configura os tipos e os campos em vez de o código trazer isso pronto. Next.js · Prisma ·
 PostgreSQL · [Demo](https://registraservico.vercel.app)
 
+**Guarda Banco.** Trava dentro do servidor de banco contra DELETE e UPDATE acidentais, por
+limite de linhas afetadas por comando. Vale em qualquer cliente, do DBeaver ao psql.
+PostgreSQL · PL/pgSQL · MySQL · SQL Server
+
 ## Outros
 
-Projetos anteriores, que deixo públicos mas não são o que eu faço hoje:
-[GolData](https://github.com/fabriciojunio/goldata) e
-[GolData Pro](https://github.com/fabriciojunio/bot-sinais) (analytics de futebol com ML),
-[JIS](https://github.com/fabriciojunio/jis) (agregador de vagas),
-[KoraCRM](https://github.com/fabriciojunio/KoraCRM) (CRM em Laravel),
+Projetos anteriores, que deixo públicos mas não são o que faço hoje:
+[Paiol Tech](https://github.com/fabriciojunio/paiol-tech) (NestJS com CQRS e Open Finance),
+[AuthCore](https://github.com/fabriciojunio/authcore) (JWT RS256, 2FA, RBAC),
+[QuantBot ML](https://github.com/fabriciojunio/quantbot-ml) e
+[GolData](https://github.com/fabriciojunio/goldata) (Python e ML),
+[JIS](https://github.com/fabriciojunio/jis),
+[KoraCRM](https://github.com/fabriciojunio/KoraCRM),
 [MyCondPets](https://github.com/fabriciojunio/MyCondPets),
 [Mente Viva](https://github.com/fabriciojunio/mente-viva),
 [Mundo do Lukinha](https://github.com/fabriciojunio/mundo-do-lukinha).
