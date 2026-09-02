@@ -44,7 +44,9 @@ and managed Kafka.
 Live, built with the economic development department of the city of Bauru. Event transport is one
 interface with three adapters: Kafka where a broker exists, Amazon SNS on the managed deployment,
 and an in-process call when there is no broker at all. Swapping the transport changes the network
-without touching the guarantees. Data erasure under Brazil's LGPD is a saga with a deadline and
+without touching the guarantees. Distributed tracing survives the outbox: the `traceparent` goes
+into a column and then into a header, otherwise the context dies at commit and the dashboard
+shows two disconnected traces instead of one whole request. Data erasure under Brazil's LGPD is a saga with a deadline and
 retries, where three services have to confirm before the request can close. 1,042 tests that boot
 embedded PostgreSQL and embedded Kafka without needing Docker installed.
 [Live](https://vitrine-bauru.vercel.app)
@@ -61,8 +63,10 @@ controller, it lives where it cannot be routed around.
 
 Code review with a language model running locally, so the code never leaves the network.
 Submission returns a ticket and goes onto a queue; the result comes back over Server-Sent Events
-as the model generates it, and Redis caches for 24 hours keyed by the code hash. 88 tests, the
-integration ones on Testcontainers.
+as the model generates it, and Redis caches for 24 hours keyed by the code hash. It accepts both
+its own login and a token from an external identity provider, because inside a company
+authentication comes from the Keycloak or Entra ID the identity team already runs. 112 tests,
+with a coverage gate enforced in the build.
 
 ### [ConectAgente](https://github.com/fabriciojunio/ConectAgente)
 `React Native · Expo · SQLite · Supabase`

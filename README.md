@@ -42,7 +42,9 @@ Terraform, com VPC de sub-rede privada, RDS, ECR e Kafka gerenciado.
 No ar, em parceria com a Secretaria de Desenvolvimento Econômico de Bauru. O transporte de
 eventos é uma interface com três adaptadores: Kafka onde existe corretor, Amazon SNS na
 implantação gerenciada, e entrega dentro do próprio processo quando não há corretor nenhum.
-Trocar o transporte muda a rede sem mexer nas garantias. A exclusão de dados pela LGPD é uma
+Trocar o transporte muda a rede sem mexer nas garantias. O rastro distribuído atravessa o
+outbox: o `traceparent` vai numa coluna e depois em cabeçalho, senão o contexto morre no commit e
+o painel mostra dois rastros desligados no lugar de um pedido inteiro. A exclusão de dados pela LGPD é uma
 saga com prazo e reenvio, em que três serviços precisam confirmar antes de o pedido fechar.
 1.042 testes que sobem PostgreSQL e Kafka embarcados, sem exigir Docker instalado.
 [No ar](https://vitrine-bauru.vercel.app)
@@ -59,8 +61,10 @@ controlador, fica no lugar onde não dá para desviar.
 
 Análise de código com modelo de linguagem rodando local, então o código não sai da rede. A
 submissão devolve um ticket e cai numa fila, o resultado volta por Server-Sent Events conforme o
-modelo gera, e o Redis guarda 24h pelo hash do código. 88 testes, os de integração com
-Testcontainers.
+modelo gera, e o Redis guarda 24h pelo hash do código. Aceita tanto o login próprio quanto token
+de um provedor de identidade externo, porque numa empresa a autenticação vem do Keycloak ou do
+Entra ID que o time de identidade já opera. 112 testes, com o gate de cobertura travado no
+build.
 
 ### [ConectAgente](https://github.com/fabriciojunio/ConectAgente)
 `React Native · Expo · SQLite · Supabase`
