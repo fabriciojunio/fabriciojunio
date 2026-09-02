@@ -36,7 +36,8 @@ way. Transactional outbox with `SELECT FOR UPDATE SKIP LOCKED` so it runs on sev
 and consumers made idempotent through an inbox. Concurrency is proven with ten real threads
 against a real PostgreSQL rather than with a simulation: 108 orders per second, printed into the
 build output. Infrastructure is described in Terraform, with a VPC of private subnets, RDS, ECR
-and managed Kafka.
+and managed Kafka. Distributed tracing survives the outbox, and a k6 load test measures the
+system over a real network rather than just the code in-process.
 
 ### [Vitrine Bauru](https://github.com/fabriciojunio/vitrine-bauru)
 `Java 21 · Spring Boot · Kafka · Amazon SNS/SQS · PostgreSQL · React 19`
@@ -65,7 +66,9 @@ Code review with a language model running locally, so the code never leaves the 
 Submission returns a ticket and goes onto a queue; the result comes back over Server-Sent Events
 as the model generates it, and Redis caches for 24 hours keyed by the code hash. It accepts both
 its own login and a token from an external identity provider, because inside a company
-authentication comes from the Keycloak or Entra ID the identity team already runs. 112 tests,
+authentication comes from the Keycloak or Entra ID the identity team already runs. The cache uses
+jittered TTLs against expiry stampedes, and a processing lease so ten identical submissions do not
+become ten inferences. 112 tests,
 with a coverage gate enforced in the build.
 
 ### [ConectAgente](https://github.com/fabriciojunio/ConectAgente)

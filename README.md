@@ -63,7 +63,9 @@ Análise de código com modelo de linguagem rodando local, então o código não
 submissão devolve um ticket e cai numa fila, o resultado volta por Server-Sent Events conforme o
 modelo gera, e o Redis guarda 24h pelo hash do código. Aceita tanto o login próprio quanto token
 de um provedor de identidade externo, porque numa empresa a autenticação vem do Keycloak ou do
-Entra ID que o time de identidade já opera. 112 testes, com o gate de cobertura travado no
+Entra ID que o time de identidade já opera. O cache tem prazo variável, contra a rajada de
+vencimentos simultâneos, e reserva de análise, para dez submissões do mesmo código não virarem
+dez inferências. 112 testes, com o gate de cobertura travado no
 build.
 
 ### [ConectAgente](https://github.com/fabriciojunio/ConectAgente)
