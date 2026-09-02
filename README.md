@@ -1,5 +1,7 @@
 # Fabrício Júnio
 
+*[Read this in English](README.en.md)*
+
 Desenvolvedor back-end em Bauru/SP. Java e Spring Boot, integração e sistemas que conversam por
 evento. No trabalho, processos que já estão rodando em empresa grande, com instâncias em
 andamento no momento em que a alteração sobe.
