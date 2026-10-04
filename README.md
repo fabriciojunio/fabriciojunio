@@ -278,12 +278,8 @@ ficam os de Desenvolvimento de Jogos e Realidade Virtual.
 |---|---|
 | [Paiol Tech](https://github.com/fabriciojunio/paiol-tech) | NestJS com CQRS e Open Finance |
 | [AuthCore](https://github.com/fabriciojunio/authcore) | Autenticação com JWT RS256, 2FA e RBAC |
-| [GolData](https://github.com/fabriciojunio/goldata) | Motor de sinais em Python |
 | [JIS](https://github.com/fabriciojunio/jis) | Agregador de vagas em Next.js, oito fontes reais |
 | [KoraCRM](https://github.com/fabriciojunio/KoraCRM) | CRM em PHP e Laravel |
 | [Almanaque](https://github.com/fabriciojunio/almanaque) | Guia e classificados em Symfony, com console de suporte |
-| [MyCondPets](https://github.com/fabriciojunio/MyCondPets) | Cadastro de animais em condomínio |
-| [Mente Viva](https://github.com/fabriciojunio/mente-viva) | Aplicação de apoio ao estudo |
-| [Mundo do Lukinha](https://github.com/fabriciojunio/mundo-do-lukinha) | Site infantil |
 
 </details>
