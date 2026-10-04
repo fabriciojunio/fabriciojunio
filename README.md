@@ -46,12 +46,17 @@ cerca de três anos, com intervalo de 95% entre 638 e 874.
 
 De quatro perguntas, duas foram respondidas com "não", e as duas estão no texto com o mesmo
 detalhe das outras. A validação contra estruturas conhecidas reprovou a primeira versão do
-aprendiz, com a diferença crescendo junto com o número de vértices (Friedman, p = 6,5 × 10⁻¹¹). O
-diagnóstico mudou o algoritmo: fixada a ordem topológica, a máscara de arestas não precisa ser
-procurada, ela **se calcula** nó a nó, porque a pontuação é decomponível e a aciclicidade já está
-garantida. Com a ordem verdadeira o SHD cai para 4, 5 e 7 em dez, vinte e trinta vértices. Se o
-trabalho tivesse pulado essa fase, a versão pior teria ido para o dado de mercado e nada no
-resultado teria denunciado.
+aprendiz, com a diferença crescendo junto com o número de vértices. O diagnóstico mudou o
+algoritmo: fixada a ordem topológica, a máscara de arestas não precisa ser procurada, ela
+**se calcula** nó a nó, porque a pontuação é decomponível e a aciclicidade já está garantida.
+
+Com a correção, o aprendiz passou ao primeiro posto médio entre sete algoritmos nas mesmas 840
+execuções (Friedman, p = 9,3 × 10⁻¹⁵). Ganha da busca tabu e da escalada de colina com tamanho de
+efeito alto, e **empata com o PC**, o que está escrito como empate e não como vitória. O teto da
+codificação está medido à parte: com a ordem topológica verdadeira o erro estrutural cai para
+7,07, contra 40,38 de uma ordem sorteada, e ordenar por variância marginal, que é a heurística
+plausível, fica em 12,25. Se o trabalho tivesse pulado essa fase, a versão pior teria ido para o
+dado de mercado e nada no resultado teria denunciado.
 
 ### [Anteparo](https://github.com/fabriciojunio/anteparo)
 `Python · scikit-learn · numpy`
@@ -70,6 +75,26 @@ Discutir qual modelo usar enquanto a LGD é um chute é discutir a parte errada 
 Tirar sexo, escolaridade e estado civil custa −0,0024 de Gini, ou seja, o modelo fica
 marginalmente melhor sem elas. E o achado que a métrica agregada esconde: num grupo de 91 casos,
 o modelo superestima o risco por um fator de quase cinco, com AUC pior que o acaso.
+
+### [Decurso](https://github.com/fabriciojunio/decurso)
+`Python · pandas · scikit-learn · SciPy`
+
+Quanto um processo judicial dura, e quanto disso vira provisão. A conta que sai
+de planilha, a média dos processos já encerrados, descarta 21,3% da base e erra
+para baixo por 1,23x: 794 dias contra 974 da mediana de Kaplan-Meier. O erro não
+é aleatório, e é maior justamente na vara mais lenta.
+
+O modelo de desfecho dá resultado negativo e está relatado como tal: o ritmo de
+andamento nos primeiros 180 dias não prevê nada. A classificação de risco sai
+degenerada por motivo estrutural, e isso também está explicado: um modelo
+calibrado numa taxa base de 0,32 concentra as previsões perto da média e nunca
+cruza o corte de "mais provável que não".
+
+O comportamento da API pública do CNJ foi medido, não presumido: ordenação
+devolve 504 em qualquer forma, o que inviabiliza `search_after`, e a contagem
+sem `track_total_hits` para em 10.000, fazendo uma consulta de 300 mil processos
+parecer uma de 10 mil. O coletor divide o período até cada fatia caber e grava o
+que faltou, fatia por fatia. 126 testes, nenhum deles tocando a API.
 
 ### [Baliza](https://github.com/fabriciojunio/baliza)
 `Python · OpenCV · YOLO11`

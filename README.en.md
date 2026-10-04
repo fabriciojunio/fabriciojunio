@@ -47,12 +47,17 @@ of the structure is 742 trading days, about three years, 95% interval from 638 t
 
 Of four research questions, two were answered "no", and both are written up in the same detail as
 the other two. Validation against known structures failed the first version of the learner, with
-the gap growing in the number of vertices (Friedman, p = 6.5 × 10⁻¹¹). The diagnosis changed the
-algorithm: once the topological order is fixed, the edge mask does not have to be searched, it
-**can be computed** node by node, because the score is decomposable and acyclicity is already
-guaranteed by the order. Fed the true order, SHD drops to 4, 5 and 7 at ten, twenty and thirty
-vertices. Had the project skipped that phase, the worse version would have gone on to market data
-and nothing in the result would have given it away.
+the gap growing in the number of vertices. The diagnosis changed the algorithm: once the
+topological order is fixed, the edge mask does not have to be searched, it **can be computed**
+node by node, because the score is decomposable and acyclicity is already guaranteed by the order.
+
+With that correction, the learner took first place in mean rank among seven algorithms over the
+same 840 runs (Friedman, p = 9.3 × 10⁻¹⁵). It beats tabu search and hill climbing with a large
+effect size, and **ties with PC**, which is written up as a tie rather than as a win. The ceiling
+of the encoding is measured separately: fed the true topological order, structural error drops to
+7.07, against 40.38 for a random order, and ordering by marginal variance, the plausible
+heuristic, lands at 12.25. Had the project skipped that phase, the worse version would have gone
+on to market data and nothing in the result would have given it away.
 
 ### [Anteparo](https://github.com/fabriciojunio/anteparo)
 `Python · scikit-learn · numpy`
@@ -72,6 +77,25 @@ about the wrong part of the problem.
 Dropping sex, education and marital status costs −0.0024 Gini, meaning the model is marginally
 **better** without them. And the finding the aggregate metric hides: in a group of 91 cases the
 model overstates risk by a factor of nearly five, with an AUC worse than chance.
+
+### [Decurso](https://github.com/fabriciojunio/decurso)
+`Python · pandas · scikit-learn · SciPy`
+
+How long a court case takes, and how much of that becomes a provision. The spreadsheet answer, the
+mean duration of already-closed cases, throws away 21.3% of the data and underestimates by 1.23x:
+794 days against 974 from the Kaplan-Meier median. The error is not random, and it is largest
+exactly in the slowest courts.
+
+The outcome model is a negative result and is reported as one: the pace of activity in the first
+180 days predicts nothing. The risk classification comes out degenerate for a structural reason,
+and that is explained too: a model calibrated at a 0.32 base rate concentrates its predictions
+near the mean and never crosses the "more likely than not" threshold.
+
+The behaviour of the public judicial API was measured, not assumed: any sort returns a gateway
+timeout, which rules out `search_after`, and counting without `track_total_hits` stops at 10,000,
+making a 300,000-case query look like a 10,000-case one. The collector splits the period until
+each slice fits and records what was missed, slice by slice. 126 tests, none of which touch the
+API.
 
 ### [Baliza](https://github.com/fabriciojunio/baliza)
 `Python · OpenCV · YOLO11`
