@@ -76,6 +76,60 @@ Tirar sexo, escolaridade e estado civil custa −0,0024 de Gini, ou seja, o mode
 marginalmente melhor sem elas. E o achado que a métrica agregada esconde: num grupo de 91 casos,
 o modelo superestima o risco por um fator de quase cinco, com AUC pior que o acaso.
 
+### [Prumo](https://github.com/fabriciojunio/prumo)
+`Python · pandas · SciPy`
+
+O desempenho passado de um fundo prevê o futuro? Medido em 42,3 milhões de linhas
+de cota diária da CVM, com 40.961 séries de 2018 a 2025. A resposta é "quase
+nada, e depende da classe": renda fixa persiste de verdade, com razão de chances
+de 3,82, e ações não persiste, com 0,94 e o intervalo encostando em 1 pelo lado
+de cima.
+
+Em dinheiro não vale nada: a diferença entre o melhor e o pior quintil é de 0,72%
+no ano seguinte, contra 19,20% de dispersão dentro de cada quintil. Vinte e seis
+vezes maior.
+
+O achado que não estava no roteiro é que a matriz de transição é em U. Do quintil
+pior, 30,0% ficam e 29,6% vão direto para o melhor. Quem está nas pontas é o
+fundo volátil, e o que persiste de um ano para o outro é o **risco**, não o
+retorno. O viés de sobrevivência está medido: só 19% das séries existem do início
+ao fim do período.
+
+### [Verbete](https://github.com/fabriciojunio/verbete)
+`Python · scikit-learn · pandas`
+
+Classifica projeto de lei pelos 32 temas oficiais da Câmara, a partir da ementa.
+O resultado principal é o tamanho do vazamento de anotação: o campo de
+palavras-chave da API é preenchido pela mesma indexação humana que atribui o
+tema, e usá-lo leva o micro-F1 de 0,542 para 0,682. Um modelo que o usasse
+pareceria 26% melhor do que vai ser quando a proposição chegar sem indexação
+nenhuma.
+
+A resposta de produto é negativa e está escrita: o alvo de 0,70 de micro-F1 não é
+alcançado em cobertura nenhuma. A divisão é temporal e não aleatória, porque
+proposição sobre o mesmo assunto reaparece a cada legislatura com ementa quase
+igual. O classificador é linear de propósito: num setor regulado, explicação que
+não vem do modelo que decidiu é uma segunda opinião.
+
+### [Trato](https://github.com/fabriciojunio/trato)
+`Python · scikit-learn · SciPy`
+
+Quem contatar, e não quem vai pagar. Modelagem de uplift num experimento
+aleatorizado de verdade, com 64 mil pessoas e 21 mil no controle.
+
+O que mais vale no projeto vem antes do modelo: ele mede se existe
+heterogeneidade para achar, calculando o efeito dentro de 19 subgrupos conhecidos
+de antemão, sem modelo nenhum. Num braço do experimento nenhuma fatia difere do
+efeito geral, e os modelos confirmam sem separar nada. O resultado negativo está
+correto, e isso só dá para afirmar porque a heterogeneidade foi medida em
+separado. No outro braço ela existe, é interpretável, e o modelo encontra:
+separação de 3x entre topo e fundo, e 11,6% a mais de resultado contatando 25
+pontos percentuais menos gente.
+
+Uplift não tem rótulo individual, porque ninguém é observado contatado e não
+contatado ao mesmo tempo. Toda a validação é por grupo, e essa ausência de
+métrica individual é deliberada.
+
 ### [Decurso](https://github.com/fabriciojunio/decurso)
 `Python · pandas · scikit-learn · SciPy`
 
