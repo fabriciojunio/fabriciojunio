@@ -282,12 +282,8 @@ is Game Development and Virtual Reality.
 |---|---|
 | [Paiol Tech](https://github.com/fabriciojunio/paiol-tech) | NestJS with CQRS and Open Finance |
 | [AuthCore](https://github.com/fabriciojunio/authcore) | Authentication with JWT RS256, 2FA and RBAC |
-| [GolData](https://github.com/fabriciojunio/goldata) | Signal engine in Python |
 | [JIS](https://github.com/fabriciojunio/jis) | Job aggregator in Next.js, eight real sources |
 | [KoraCRM](https://github.com/fabriciojunio/KoraCRM) | CRM in PHP and Laravel |
 | [Almanaque](https://github.com/fabriciojunio/almanaque) | Local guide and classifieds in Symfony, with a support console |
-| [MyCondPets](https://github.com/fabriciojunio/MyCondPets) | Pet registry for apartment buildings |
-| [Mente Viva](https://github.com/fabriciojunio/mente-viva) | Study support application |
-| [Mundo do Lukinha](https://github.com/fabriciojunio/mundo-do-lukinha) | Children's site |
 
 </details>
