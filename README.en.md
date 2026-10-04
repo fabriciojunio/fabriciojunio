@@ -78,6 +78,60 @@ Dropping sex, education and marital status costs −0.0024 Gini, meaning the mod
 **better** without them. And the finding the aggregate metric hides: in a group of 91 cases the
 model overstates risk by a factor of nearly five, with an AUC worse than chance.
 
+### [Prumo](https://github.com/fabriciojunio/prumo)
+`Python · pandas · SciPy`
+
+Does a fund's past performance predict its future? Measured across 42.3 million
+rows of daily fund quotes from the Brazilian securities regulator, 40,961 series
+from 2018 to 2025. The answer is "almost nothing, and it depends on the asset
+class": fixed income really does persist, with an odds ratio of 3.82, and equity
+does not, at 0.94 with the interval touching 1 from above.
+
+In money it is worth nothing: the gap between the best and worst quintile is
+0.72% in the following year, against a 19.20% spread within each quintile.
+Twenty-six times larger.
+
+The finding that was not in the script is that the transition matrix is U-shaped.
+From the worst quintile, 30.0% stay and 29.6% jump straight to the best. The
+funds at the extremes are the volatile ones, and what persists from year to year
+is **risk**, not return. Survivorship bias is measured: only 19% of the series
+exist from start to finish.
+
+### [Verbete](https://github.com/fabriciojunio/verbete)
+`Python · scikit-learn · pandas`
+
+Classifies legislative bills into the 32 official subject categories of Brazil's
+Chamber of Deputies, from the abstract. The headline result is the size of the
+annotation leak: the API's keyword field is filled by the same human indexing
+that assigns the subject, and using it moves micro-F1 from 0.542 to 0.682. A
+model that used it would look 26% better than it will be once a bill arrives with
+no indexing at all.
+
+The product answer is negative and written down: a 0.70 micro-F1 target is not
+reached at any coverage. The split is temporal rather than random, because bills
+on the same topic reappear each legislature with nearly identical abstracts. The
+classifier is linear on purpose: in a regulated sector, an explanation that does
+not come from the model that decided is a second opinion.
+
+### [Trato](https://github.com/fabriciojunio/trato)
+`Python · scikit-learn · SciPy`
+
+Who to contact, not who will pay. Uplift modelling on a genuine randomised
+experiment, with 64,000 people and 21,000 in the control arm.
+
+The most valuable part comes before the model: it measures whether there is any
+heterogeneity to find, computing the effect within 19 subgroups known in advance,
+with no model at all. In one arm of the experiment no slice differs from the
+overall effect, and the models confirm it by separating nothing. The negative
+result is correct, and that can only be stated because heterogeneity was measured
+separately. In the other arm it exists, it is interpretable, and the model finds
+it: a 3x separation between top and bottom, and 11.6% more result while
+contacting 25 percentage points fewer people.
+
+Uplift has no individual label, because nobody is observed both contacted and not
+contacted. All validation is by group, and that absence of an individual metric
+is deliberate.
+
 ### [Decurso](https://github.com/fabriciojunio/decurso)
 `Python · pandas · scikit-learn · SciPy`
 
