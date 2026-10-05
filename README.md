@@ -2,8 +2,8 @@
 
 *[Read this in English](README.en.md)*
 
-Back-end e aprendizado de máquina, em Bauru/SP. Java e Spring Boot no serviço que vai para
-produção, Python e estatística quando o problema é decidir com dado incerto. A parte que me
+IA aplicada a risco, crédito e decisão, em Bauru/SP. Python e estatística quando o problema é
+decidir com dado incerto, Java e Spring Boot no serviço que vai para produção. A parte que me
 interessa é a do meio: onde o modelo deixa de ser um número num caderno e passa a ser uma decisão
 que alguém assina.
 
@@ -133,22 +133,26 @@ métrica individual é deliberada.
 ### [Decurso](https://github.com/fabriciojunio/decurso)
 `Python · pandas · scikit-learn · SciPy`
 
-Quanto um processo judicial dura, e quanto disso vira provisão. A conta que sai
-de planilha, a média dos processos já encerrados, descarta 21,3% da base e erra
-para baixo por 1,23x: 794 dias contra 974 da mediana de Kaplan-Meier. O erro não
-é aleatório, e é maior justamente na vara mais lenta.
+Quanto um processo judicial dura, e quanto disso vira provisão pelo critério do
+CPC 25. A conta que sai de planilha, a média dos processos já encerrados,
+descarta 20,8% da base e erra para baixo por 1,21x: 791 dias contra 955 da
+mediana de Kaplan-Meier. O erro não é aleatório, e é maior justamente na vara
+mais lenta.
 
-O modelo de desfecho dá resultado negativo e está relatado como tal: o ritmo de
-andamento nos primeiros 180 dias não prevê nada. A classificação de risco sai
-degenerada por motivo estrutural, e isso também está explicado: um modelo
-calibrado numa taxa base de 0,32 concentra as previsões perto da média e nunca
-cruza o corte de "mais provável que não".
+O modelo de desfecho dá resultado negativo e está relatado como tal: AUC de
+0,521, sem diferença significativa nem contra a taxa global nem contra a taxa do
+órgão. E um achado morreu quando a amostra cresceu: com 2.648 processos a
+diferença sobrevivia à correção de Benjamini-Hochberg, com 4.118 ela não
+sobrevive mais. Está escrito no relatório em vez de apagado.
+
+A hipótese de valor em risco move a provisão 4,00x, contra 1,09x da escolha do
+modelo.
 
 O comportamento da API pública do CNJ foi medido, não presumido: ordenação
 devolve 504 em qualquer forma, o que inviabiliza `search_after`, e a contagem
 sem `track_total_hits` para em 10.000, fazendo uma consulta de 300 mil processos
 parecer uma de 10 mil. O coletor divide o período até cada fatia caber e grava o
-que faltou, fatia por fatia. 126 testes, nenhum deles tocando a API.
+que faltou, fatia por fatia. 142 testes, nenhum deles tocando a API.
 
 ### [Baliza](https://github.com/fabriciojunio/baliza)
 `Python · OpenCV · YOLO11`
@@ -165,11 +169,15 @@ decisões mudaram o resultado e as duas foram erro antes de virarem acerto, padr
 em vez de globalmente e escolher o limiar por F1 em vez de acurácia.
 
 ### [PermaneIA](https://github.com/fabriciojunio/permaneia)
-`Python · FastAPI · lógica fuzzy`
+`TypeScript · Next.js · PostgreSQL · lógica fuzzy`
 
 Assistente que responde só com base no material da disciplina, citando a fonte e admitindo quando
-não sabe, e painel de risco de evasão por lógica fuzzy. O motor de inferência de Mamdani foi
-escrito do zero, com 2.093 testes. [No ar](https://permaneia.vercel.app)
+não sabe, e painel de risco de evasão por lógica fuzzy. A recuperação é híbrida, vetorial mais
+casamento de termo, e o limiar que decide entre responder e recusar foi calibrado contra uma
+bateria de 52 perguntas: 41 que o material responde, 8 que ele não responde e 3 que devem ser
+respondidas com o aviso de que não há fonte. No chute inicial de 0,62 a recusa correta era de
+37,5%. O motor de inferência de Mamdani foi escrito do zero, com 2.041 testes.
+[No ar](https://permaneia.vercel.app)
 
 ### [Cardiocam](https://github.com/fabriciojunio/cardiocam)
 `Python · OpenCV · scipy`
@@ -199,12 +207,13 @@ LGPD é uma saga com prazo e reenvio, em que três serviços precisam confirmar 
 fechar. 1.042 testes que sobem PostgreSQL e Kafka embarcados, sem exigir Docker instalado.
 [No ar](https://vitrine-bauru.vercel.app)
 
-### [ConectAgente](https://github.com/fabriciojunio/ConectAgente)
-`React Native · Expo · SQLite · Supabase`
+### [ConectAgente](https://github.com/CamilaRaimundo/ConectAgente)
+`React Native · Expo · Next.js · PostgreSQL`
 
-App para Agente Comunitário de Saúde do SUS, que trabalha em rua sem sinal. Escreve local em
-SQLite e sincroniza depois com padrão outbox, com retentativa e resolução de conflito. Nasceu de
-iniciação científica e está incubado na Saruê, na UNESP Bauru.
+App para Agente Comunitário de Saúde do SUS, que trabalha em rua sem sinal. Escreve local e
+sincroniza depois, com retentativa e resolução de conflito. Nasceu de iniciação científica e está
+incubado na Saruê, na UNESP Bauru. O desenvolvimento é em equipe e o repositório do time é o
+endereço acima.
 [Demo](https://conectagente-web.vercel.app)
 
 ## Back-end e produto

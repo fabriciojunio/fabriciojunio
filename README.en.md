@@ -2,10 +2,10 @@
 
 *[Leia em português](README.md)*
 
-Backend and machine learning, based in Bauru, Brazil. Java and Spring Boot for the service that
-ships, Python and statistics when the problem is deciding under uncertainty. The part I care about
-is in between: where a model stops being a number in a notebook and becomes a decision someone
-has to sign off on.
+AI applied to risk, credit and decision, based in Bauru, Brazil. Python and statistics when the
+problem is deciding under uncertainty, Java and Spring Boot for the service that ships. The part I
+care about is in between: where a model stops being a number in a notebook and becomes a decision
+someone has to sign off on.
 
 [LinkedIn](https://linkedin.com/in/fabríciojúnio) · [Portfolio](https://fabriciojunio.vercel.app) · junioad555@gmail.com
 
@@ -136,19 +136,22 @@ is deliberate.
 `Python · pandas · scikit-learn · SciPy`
 
 How long a court case takes, and how much of that becomes a provision. The spreadsheet answer, the
-mean duration of already-closed cases, throws away 21.3% of the data and underestimates by 1.23x:
-794 days against 974 from the Kaplan-Meier median. The error is not random, and it is largest
+mean duration of already-closed cases, throws away 20.8% of the data and underestimates by 1.21x:
+791 days against 955 from the Kaplan-Meier median. The error is not random, and it is largest
 exactly in the slowest courts.
 
-The outcome model is a negative result and is reported as one: the pace of activity in the first
-180 days predicts nothing. The risk classification comes out degenerate for a structural reason,
-and that is explained too: a model calibrated at a 0.32 base rate concentrates its predictions
-near the mean and never crosses the "more likely than not" threshold.
+The outcome model is a negative result and is reported as one: AUC of 0.521, with no significant
+difference against the global rate or the court's own rate. And one finding died when the sample
+grew: with 2,648 cases the difference survived the Benjamini-Hochberg correction, with 4,118 it no
+longer does. That is written in the report rather than deleted.
+
+The assumption about the amount at risk moves the provision by 4.00x, against 1.09x for the choice
+of model.
 
 The behaviour of the public judicial API was measured, not assumed: any sort returns a gateway
 timeout, which rules out `search_after`, and counting without `track_total_hits` stops at 10,000,
 making a 300,000-case query look like a 10,000-case one. The collector splits the period until
-each slice fits and records what was missed, slice by slice. 126 tests, none of which touch the
+each slice fits and records what was missed, slice by slice. 142 tests, none of which touch the
 API.
 
 ### [Baliza](https://github.com/fabriciojunio/baliza)
@@ -167,11 +170,15 @@ standardising per camera rather than globally, and picking the threshold by F1 r
 accuracy.
 
 ### [PermaneIA](https://github.com/fabriciojunio/permaneia)
-`Python · FastAPI · fuzzy logic`
+`TypeScript · Next.js · PostgreSQL · fuzzy logic`
 
 A study assistant that answers only from the course material, cites the source and admits when it
-does not know, plus a dropout-risk panel using fuzzy logic. The Mamdani inference engine was
-written from scratch, with 2,093 tests. [Live](https://permaneia.vercel.app)
+does not know, plus a dropout-risk panel using fuzzy logic. Retrieval is hybrid, vectors plus term
+matching, and the threshold that decides between answering and refusing was calibrated against a
+52-question battery: 41 the material answers, 8 it does not and 3 that must be answered with a
+notice that there is no source. At the initial guess of 0.62, correct refusal was 37.5%. The
+Mamdani inference engine was written from scratch, with 2,041 tests.
+[Live](https://permaneia.vercel.app)
 
 ### [Cardiocam](https://github.com/fabriciojunio/cardiocam)
 `Python · OpenCV · scipy`
@@ -201,12 +208,13 @@ saga with a deadline and retries, where three services have to confirm before th
 close. 1,042 tests that boot embedded PostgreSQL and embedded Kafka without needing Docker
 installed. [Live](https://vitrine-bauru.vercel.app)
 
-### [ConectAgente](https://github.com/fabriciojunio/ConectAgente)
-`React Native · Expo · SQLite · Supabase`
+### [ConectAgente](https://github.com/CamilaRaimundo/ConectAgente)
+`React Native · Expo · Next.js · PostgreSQL`
 
 An app for community health workers in Brazil's public health system, who work on streets with no
-signal. It writes locally to SQLite and syncs later using the outbox pattern, with retries and
-conflict resolution. It started as undergraduate research and is incubated at Saruê, UNESP Bauru.
+signal. It writes locally and syncs later, with retries and conflict resolution. It started as
+undergraduate research and is incubated at Saruê, UNESP Bauru. It is built by a team, and the
+address above is the team's repository.
 [Demo](https://conectagente-web.vercel.app)
 
 ## Backend and product
