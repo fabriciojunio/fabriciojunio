@@ -207,7 +207,7 @@ LGPD é uma saga com prazo e reenvio, em que três serviços precisam confirmar 
 fechar. 1.042 testes que sobem PostgreSQL e Kafka embarcados, sem exigir Docker instalado.
 [No ar](https://vitrine-bauru.vercel.app)
 
-### [ConectAgente](https://github.com/CamilaRaimundo/ConectAgente)
+### [ConectAgente](https://github.com/fabriciojunio/ConectAgente)
 `React Native · Expo · Next.js · PostgreSQL`
 
 App para Agente Comunitário de Saúde do SUS, que trabalha em rua sem sinal. Escreve local e

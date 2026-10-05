@@ -208,7 +208,7 @@ saga with a deadline and retries, where three services have to confirm before th
 close. 1,042 tests that boot embedded PostgreSQL and embedded Kafka without needing Docker
 installed. [Live](https://vitrine-bauru.vercel.app)
 
-### [ConectAgente](https://github.com/CamilaRaimundo/ConectAgente)
+### [ConectAgente](https://github.com/fabriciojunio/ConectAgente)
 `React Native · Expo · Next.js · PostgreSQL`
 
 An app for community health workers in Brazil's public health system, who work on streets with no
