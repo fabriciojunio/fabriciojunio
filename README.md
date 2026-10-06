@@ -200,8 +200,9 @@ respondidas com o aviso de que não há fonte. No chute inicial de 0,62 a recusa
 37,5%. O motor de inferência de Mamdani foi escrito do zero, com 2.055 testes.
 
 Cada consulta grava modelo, tokens e custo estimado, e vai também para o Langfuse com uma etapa por
-fase. Medido em produção: **96% dos tokens são de entrada**, ou seja, a conta é do material que
-acompanha a pergunta e não da resposta. Duas cicatrizes viraram teste: o envio do rastro precisa ser
+fase. Medido em produção, em 30 chamadas reais: **95,7% dos tokens são de entrada**, uma razão de
+22,4 para 1. A conta é do material que acompanha a pergunta e não da resposta, e isso muda onde se
+mexe para baratear: não é trocar de modelo, é recuperar menos trecho. Duas cicatrizes viraram teste: o envio do rastro precisa ser
 explícito, porque função sem servidor congela quando a resposta sai, e o valor da variável precisa
 ser limpo antes de usar, porque uma chave gravada com marca de ordem de byte derrubou a aplicação
 inteira e não só a telemetria.
