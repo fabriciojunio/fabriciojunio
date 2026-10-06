@@ -177,7 +177,15 @@ does not know, plus a dropout-risk panel using fuzzy logic. Retrieval is hybrid,
 matching, and the threshold that decides between answering and refusing was calibrated against a
 52-question battery: 41 the material answers, 8 it does not and 3 that must be answered with a
 notice that there is no source. At the initial guess of 0.62, correct refusal was 37.5%. The
-Mamdani inference engine was written from scratch, with 2,041 tests.
+Mamdani inference engine was written from scratch, with 2,055 tests.
+
+Every query records model, tokens and estimated cost, and also goes to Langfuse with one step per
+phase. Measured in production, over 30 real calls: **95.7% of the tokens are input**, a ratio of
+22.4 to 1. The bill comes from the material shipped with the question, not from the answer, and
+that changes where you pull to make it cheaper. Two scars became tests: the trace must be flushed
+explicitly, because a serverless function freezes the moment the response leaves, and the env var
+must be cleaned before use, because a key stored with a byte order mark brought down the whole
+application rather than just the telemetry.
 [Live](https://permaneia.vercel.app)
 
 ### [Cardiocam](https://github.com/fabriciojunio/cardiocam)
