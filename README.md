@@ -168,6 +168,27 @@ O limiar do clássico não é escolhido no olho: calibra em duas câmeras e mede
 decisões mudaram o resultado e as duas foram erro antes de virarem acerto, padronizar por câmera
 em vez de globalmente e escolher o limiar por F1 em vez de acurácia.
 
+### [Cautela](https://github.com/fabriciojunio/cautela)
+`Python · LangGraph · Langfuse · Datadog`
+
+Agente de investimentos que **não recomenda**: responde com número medido, cita a fonte e termina
+declarando a limitação. Três regras que não dependem de o modelo colaborar, porque instrução em
+prompt é pedido e não garantia. Não recomendar, porque recomendação de investimento é atividade
+regulada pela CVM. Não citar número que não veio do acervo, e aqui conversão de unidade também é
+barrada: 94% não passa quando o acervo diz 0,94, porque converter é derivar, e derivar é onde o
+modelo erra sem parecer errado. E sempre declarar o limite.
+
+Os 17 fatos do acervo não são digitados: saem dos artefatos JSON dos outros projetos desta página.
+Se um experimento for refeito e o número mudar, o agente passa a responder o novo sem ninguém
+editar texto. Sem artefato, o assunto some e a pergunta é recusada: ausência de dado não é
+permissão para opinar.
+
+O fluxo é um grafo em LangGraph e não uma função em linha reta, porque o caminho da recusa é um
+caminho de verdade e não um `if` escondido no meio da redação. Na primeira execução contra os
+artefatos reais, o agente recusou a própria transcrição: o fato traz `IC 95%` e o auditor tratou
+aquilo como número inventado. A definição foi corrigida em vez de a regra ser afrouxada, e o caso
+virou teste.
+
 ### [PermaneIA](https://github.com/fabriciojunio/permaneia)
 `TypeScript · Next.js · PostgreSQL · lógica fuzzy`
 
@@ -176,7 +197,14 @@ não sabe, e painel de risco de evasão por lógica fuzzy. A recuperação é h�
 casamento de termo, e o limiar que decide entre responder e recusar foi calibrado contra uma
 bateria de 52 perguntas: 41 que o material responde, 8 que ele não responde e 3 que devem ser
 respondidas com o aviso de que não há fonte. No chute inicial de 0,62 a recusa correta era de
-37,5%. O motor de inferência de Mamdani foi escrito do zero, com 2.041 testes.
+37,5%. O motor de inferência de Mamdani foi escrito do zero, com 2.055 testes.
+
+Cada consulta grava modelo, tokens e custo estimado, e vai também para o Langfuse com uma etapa por
+fase. Medido em produção: **96% dos tokens são de entrada**, ou seja, a conta é do material que
+acompanha a pergunta e não da resposta. Duas cicatrizes viraram teste: o envio do rastro precisa ser
+explícito, porque função sem servidor congela quando a resposta sai, e o valor da variável precisa
+ser limpo antes de usar, porque uma chave gravada com marca de ordem de byte derrubou a aplicação
+inteira e não só a telemetria.
 [No ar](https://permaneia.vercel.app)
 
 ### [Cardiocam](https://github.com/fabriciojunio/cardiocam)
