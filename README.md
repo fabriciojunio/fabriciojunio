@@ -2,7 +2,7 @@
 
 **Analista de Sistemas | Java · PHP · JavaScript · SQL**
 
-Trabalho com desenvolvimento, integrações e sustentação de software na **DIGIHUB Tecnologia**. Analiso chamados, investigo código e banco de dados, implemento soluções e acompanho a homologação e a publicação.
+Trabalho com desenvolvimento e integrações de software na **DIGIHUB Tecnologia**. Analiso chamados, investigo código e banco de dados, implemento soluções e acompanho a homologação e a publicação.
 
 No dia a dia, utilizo Java, JavaScript, SQL, MySQL, Lecom BPM e RPA no Roberty Studio, com Jira, Git e GitLab. Na Nexum Tecnologia, atuei em processos do setor financeiro, robôs Java e integrações com APIs externas e MCP.
 
