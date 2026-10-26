@@ -21,13 +21,13 @@ Em projetos próprios, uso PHP, Symfony, Laravel e Spring Boot, incluindo micros
 | [AuthCore](https://github.com/fabriciojunio/authcore) | Node.js, JWT HS256, rotação de tokens, 2FA e autorização | [Interface](https://frontend-tan-mu-38.vercel.app): os fluxos completos dependem da API |
 | [CodeReview AI](https://github.com/fabriciojunio/codereview-ai) | Spring Boot, processamento assíncrono, RabbitMQ e Redis | Execução local documentada no repositório |
 
-**Vitrine Bauru:** ação social de extensão da UNISAGRADO para a SEDECON — [Secretaria Municipal de Desenvolvimento Econômico, Turismo e Inovação, da Prefeitura de Bauru](https://www2.bauru.sp.gov.br/sedecon/). A secretaria apoia o empreendedorismo e o desenvolvimento econômico local.
+**Vitrine Bauru:** ação social de extensão da UNISAGRADO para a SEDECON, a [Secretaria Municipal de Desenvolvimento Econômico, Turismo e Inovação, da Prefeitura de Bauru](https://www2.bauru.sp.gov.br/sedecon/). A secretaria apoia o empreendedorismo e o desenvolvimento econômico local.
 
 ## Pesquisa aplicada
 
 - [ConectAgente](https://github.com/fabriciojunio/ConectAgente): registro de visitas domiciliares para Agentes Comunitários de Saúde. React Native e Expo, SQLite local, sincronização com Supabase/PostgreSQL e painel Next.js. Selecionado para a **Saruê, incubadora da UNESP Bauru**. Em desenvolvimento, com perfis de acesso e auditoria.
 - [Cardiocam](https://github.com/fabriciojunio/cardiocam): ferramenta experimental de pesquisa de sinais cardíacos por vídeo, com rPPG, processamento de imagens, avaliação de qualidade e comparação de métodos. Testes de software e sinais sintéticos não equivalem a validação clínica.
-- **Lastro — projeto pré-TCC:** pesquisa sobre o aprendizado de dependências entre instituições financeiras brasileiras por redes bayesianas e otimização evolutiva multiobjetivo, e sua estabilidade no tempo. Em desenvolvimento; código e artefatos privados até a defesa. [Apresentação pública](https://portfolio-a3qn.vercel.app/#work-lastro).
+- **Lastro, projeto pré-TCC:** pesquisa sobre o aprendizado de dependências entre instituições financeiras brasileiras por redes bayesianas e otimização evolutiva multiobjetivo, e sua estabilidade no tempo. Em desenvolvimento; código e artefatos privados até a defesa. [Apresentação pública](https://portfolio-a3qn.vercel.app/#work-lastro).
 
 <details>
 <summary>Trabalhos acadêmicos e projetos complementares</summary>
