@@ -27,7 +27,7 @@ My personal projects use PHP, Symfony, Laravel and Spring Boot, including Kafka 
 
 - [ConectAgente](https://github.com/fabriciojunio/ConectAgente): home-visit registration for Community Health Agents. React Native and Expo, local SQLite, Supabase/PostgreSQL synchronization and a Next.js dashboard. Selected for **Saruê, the UNESP Bauru incubator**. Under development, with role-based access and audit records.
 - [Cardiocam](https://github.com/fabriciojunio/cardiocam): experimental video-based cardiac signal research with rPPG, image processing, signal quality evaluation and method comparison. Software tests and synthetic signals do not establish clinical validity.
-- **Lastro — preparatory thesis project:** research on learning dependency structures among Brazilian financial institutions using Bayesian networks and multiobjective evolutionary optimization, and their stability over time. Under development; code and artifacts remain private until the thesis defense. [Public overview](https://portfolio-a3qn.vercel.app/#work-lastro).
+- **Lastro, preparatory thesis project:** research on learning dependency structures among Brazilian financial institutions using Bayesian networks and multiobjective evolutionary optimization, and their stability over time. Under development; code and artifacts remain private until the thesis defense. [Public overview](https://portfolio-a3qn.vercel.app/#work-lastro).
 
 <details>
 <summary>Academic work and additional projects</summary>
