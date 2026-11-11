@@ -1,6 +1,6 @@
 # Fabrício Júnio
 
-**Application security (AppSec) with a developer's background**
+**Security Engineer · AppSec**, with a developer's background
 
 Systems Analyst at **DIGIHUB Tecnologia**, moving into AppSec the way builders do. I threat model, review code, put SAST, DAST and SCA in the pipeline, run pentests with a proper report and translate risk for whoever has to fix it. I also work with AI on both sides: I attack and defend agents with RAG and MCP.
 
