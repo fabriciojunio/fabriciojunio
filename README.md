@@ -1,60 +1,44 @@
 # Fabrício Júnio
 
-**Analista de Sistemas | Java · PHP · JavaScript · SQL**
+**Segurança de aplicações (AppSec) com base de desenvolvedor**
 
-Trabalho com desenvolvimento e integrações de software na **DIGIHUB Tecnologia**. Analiso chamados, investigo código e banco de dados, implemento soluções e acompanho a homologação e a publicação.
-
-No dia a dia, utilizo Java, JavaScript, SQL, MySQL, Lecom BPM e RPA no Roberty Studio, com Jira, Git e GitLab. Na Nexum Tecnologia, atuei em processos do setor financeiro, robôs Java e integrações com APIs externas e MCP.
-
-Em projetos próprios, uso PHP, Symfony, Laravel e Spring Boot, incluindo microsserviços com Kafka, testes e integração contínua. Curso Ciência da Computação na **UNISAGRADO** e participo de iniciação científica em saúde pública com o **ConectAgente**, selecionado para a **Saruê, incubadora da UNESP Bauru**.
+Analista de Sistemas na **DIGIHUB Tecnologia**, migrando para AppSec pelo caminho de quem constrói. Modelo ameaças, reviso código, coloco SAST, DAST e SCA na esteira, faço pentest com relatório e traduzo o risco para quem vai corrigir. Também cuido de IA dos dois lados: ataco e defendo agentes com RAG e MCP.
 
 [Portfólio](https://portfolio-a3qn.vercel.app) · [LinkedIn](https://www.linkedin.com/in/fabr%C3%ADcioj%C3%BAnio/) · [E-mail](mailto:junioad555@gmail.com) · [English](README.en.md)
 
-## Projetos em destaque
+## Segurança de aplicações
 
-| Projeto | O que demonstra | Visualização |
-| --- | --- | --- |
-| [Almanaque](https://github.com/fabriciojunio/almanaque) | PHP, Symfony, isolamento entre clientes, busca e console de suporte | [Demonstração](https://almanaque-ecru.vercel.app): dados de exemplo; busca publicada pelo banco |
-| [Vitrine Bauru](https://github.com/fabriciojunio/vitrine-bauru) | Ação social para a SEDECON de Bauru, microsserviços Spring Boot, Kafka, catálogo e moderação | [Demonstração](https://vitrine-bauru.vercel.app): API publicada; a primeira resposta pode demorar |
-| [Feira do Comando](https://github.com/fabriciojunio/feira-do-comando) | Java, Kafka, outbox, consumidores idempotentes e compensação de pedidos | [Simulação](https://feira-do-comando.vercel.app): roda no navegador; serviços executados localmente |
-| [KoraCRM](https://github.com/fabriciojunio/KoraCRM) | Laravel, React, funil comercial, tarefas, perfis e auditoria | [Interface de demonstração](https://koracrm-frontend.vercel.app): dados de exemplo; API local |
-| [AuthCore](https://github.com/fabriciojunio/authcore) | Node.js, JWT HS256, rotação de tokens, 2FA e autorização | [Interface](https://frontend-tan-mu-38.vercel.app): os fluxos completos dependem da API |
-| [CodeReview AI](https://github.com/fabriciojunio/codereview-ai) | Spring Boot, processamento assíncrono, RabbitMQ e Redis | Execução local documentada no repositório |
+| Projeto | O que prova |
+| --- | --- |
+| [brecha](https://github.com/fabriciojunio/brecha) | Pentest de API bancária vulnerável de propósito: 19 achados com CVSS 4.0 e CWE, relatório WSTG + Trail of Bits, cadeia de ataque até a rede interna, reteste automatizado |
+| [Feira do Comando](https://github.com/fabriciojunio/feira-do-comando) | Esteira DevSecOps com portões que barram: Semgrep com regras próprias, CodeQL, OSV, gitleaks, ZAP, SBOM, Kyverno, Falco e Kafka com TLS e ACL |
+| [AuthCore](https://github.com/fabriciojunio/authcore) | Identidade: MFA, passkeys, Keycloak com PKCE e Kong, 18 ataques provados na CI, STRIDE e ASVS 5.0 |
+| [alicerce](https://github.com/fabriciojunio/alicerce) | Modelo Spring Boot seguro por padrão: anti-SSRF, distroless, cosign, OpenVEX e processos de gestão de vulnerabilidade |
+| [crivo](https://github.com/fabriciojunio/crivo) | Triagem de vulnerabilidades em Go com EPSS, KEV e SLA, aceite de risco com prazo |
+| [guarita](https://github.com/fabriciojunio/guarita) | Assistente com RAG e MCP atacado e defendido em seis cenários do OWASP Top 10 para LLM |
 
-**Vitrine Bauru:** ação social de extensão da UNISAGRADO para a SEDECON, a [Secretaria Municipal de Desenvolvimento Econômico, Turismo e Inovação, da Prefeitura de Bauru](https://www2.bauru.sp.gov.br/sedecon/). A secretaria apoia o empreendedorismo e o desenvolvimento econômico local.
+## Destaques
 
-## Pesquisa aplicada
-
-- [ConectAgente](https://github.com/fabriciojunio/ConectAgente): registro de visitas domiciliares para Agentes Comunitários de Saúde. React Native e Expo, SQLite local, sincronização com Supabase/PostgreSQL e painel Next.js. Selecionado para a **Saruê, incubadora da UNESP Bauru**. Em desenvolvimento, com perfis de acesso e auditoria.
-- [Cardiocam](https://github.com/fabriciojunio/cardiocam): ferramenta experimental de pesquisa de sinais cardíacos por vídeo, com rPPG, processamento de imagens, avaliação de qualidade e comparação de métodos. Testes de software e sinais sintéticos não equivalem a validação clínica.
-- **Lastro, projeto pré-TCC:** pesquisa sobre o aprendizado de dependências entre instituições financeiras brasileiras por redes bayesianas e otimização evolutiva multiobjetivo, e sua estabilidade no tempo. Em desenvolvimento; código e artefatos privados até a defesa. [Apresentação pública](https://portfolio-a3qn.vercel.app/#work-lastro).
+- [Vitrine Bauru](https://github.com/fabriciojunio/vitrine-bauru): extensão da UNISAGRADO com a [SEDECON](https://www2.bauru.sp.gov.br/sedecon/), da Prefeitura de Bauru. Programa de AppSec com STRIDE, PASTA, SAMM e kit de Security Champions. [No ar](https://vitrine-bauru.vercel.app).
+- [ConectAgente](https://portfolio-a3qn.vercel.app/#work-conectagente): iniciação científica selecionada pela Saruê (UNESP Bauru). Sou responsável pela segurança e pela privacidade do dado de saúde: RLS testado em banco real, SQLCipher, pinning e LGPD.
+- [rastro](https://github.com/fabriciojunio/rastro): TCC. Análise de variantes de vulnerabilidade com aprendizado de máquina; código já corrigido no top 10 cai de 36,4% para 2,6%.
+- [AURORA](https://github.com/fabriciojunio/aurora-astronaut-health): NASA Space Apps Challenge 2026, em dupla. Saúde de astronautas offline, com AES-GCM, auditoria assinada e CSP estrita.
 
 <details>
-<summary>Trabalhos acadêmicos e projetos complementares</summary>
+<summary>IA aplicada e outros projetos</summary>
 
-### Faculdade
-
-- [PermaneIA](https://github.com/fabriciojunio/permaneia): assistente de estudos com RAG e inferência fuzzy.
-- [Baliza](https://github.com/fabriciojunio/baliza): análise de vagas de estacionamento por imagens, desenvolvido em equipe.
-- [Contaflux](https://github.com/fabriciojunio/contaflux): rastreamento e contagem de veículos, desenvolvido em equipe.
-- [Kaida](https://github.com/fabriciojunio/kaida) e [Bicudo](https://github.com/fabriciojunio/bicudo): jogos em Unity e C#.
-- [Laboratório VR](https://github.com/fabriciojunio/LaboratorioVR): interação pelo olhar em realidade virtual.
-
-### Outros projetos
-
-- [JIS](https://github.com/fabriciojunio/jis): agregação de vagas e filtros de aderência.
-- [Outorga TV](https://github.com/fabriciojunio/outorga-tv): catálogo, licenciamento e isolamento entre clientes.
-- [Paiol Tech](https://github.com/fabriciojunio/paiol-tech): gestão de dívidas rurais com Next.js e NestJS.
+- **IA aplicada:** [Balcão](https://github.com/fabriciojunio/balcao), [Cautela](https://github.com/fabriciojunio/cautela), [Verbete](https://github.com/fabriciojunio/verbete) e [CodeReview AI](https://github.com/fabriciojunio/codereview-ai).
+- **Faculdade:** [PermaneIA](https://github.com/fabriciojunio/permaneia), [Cardiocam](https://github.com/fabriciojunio/cardiocam), [Baliza](https://github.com/fabriciojunio/baliza), [Contaflux](https://github.com/fabriciojunio/contaflux), [Kaida](https://github.com/fabriciojunio/kaida), [Bicudo](https://github.com/fabriciojunio/bicudo) e [Laboratório VR](https://github.com/fabriciojunio/LaboratorioVR).
+- **Outros:** Almanaque, KoraCRM, JIS, Outorga TV e Paiol Tech, descritos no [portfólio](https://portfolio-a3qn.vercel.app/#trabalho).
 
 </details>
 
-## Tecnologias
+## Stack
 
-- **Atuação profissional:** Java, JavaScript, SQL, MySQL, API REST, MCP, Lecom BPM, Roberty Studio, RPA, Jira, Git e GitLab.
-- **Projetos próprios:** PHP, Symfony, Laravel, Spring Boot, Node.js, Doctrine ORM, React, Next.js e TypeScript.
-- **Arquitetura em projetos:** microsserviços, Kafka, RabbitMQ, eventos, outbox transacional e idempotência.
-- **Dados e qualidade em projetos:** PostgreSQL, SQLite, Elasticsearch, Redis, PHPUnit, Playwright e PHPStan.
-- **Infraestrutura em projetos:** Docker, Docker Compose, Nginx e GitHub Actions; manifestos de implantação em Kubernetes.
-- **Pesquisa acadêmica:** Python, aprendizado de máquina, RAG e processamento de imagens e sinais.
+- **AppSec:** threat modeling (STRIDE, PASTA, árvore de ataque), OWASP ASVS, Top 10 e API Top 10, revisão de código, pentest web e de API, CVSS 4.0, EPSS e KEV
+- **Ferramentas:** Semgrep, CodeQL, OSV-Scanner, Trivy, OWASP ZAP, Burp Suite, gitleaks, Syft e Grype, MobSF
+- **Identidade e nuvem:** OAuth 2.0, OIDC, Keycloak, Kong, WebAuthn, Kubernetes, Kyverno, Falco, Terraform, cosign
+- **Desenvolvimento:** Java 21, Spring Boot, Go, Python, TypeScript, Kafka, PostgreSQL
+- **No trabalho:** Java, JavaScript, SQL, Lecom BPM, GitLab CI e SonarQube
 
-Português nativo · Inglês intermediário · Bauru, São Paulo
+Ciência da Computação na UNISAGRADO (2027) · CiberEducação Cisco com o SENAI · Português nativo, inglês intermediário · Bauru, SP
