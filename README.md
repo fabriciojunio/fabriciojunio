@@ -1,6 +1,6 @@
 # Fabrício Júnio
 
-**Segurança de aplicações (AppSec) com base de desenvolvedor**
+**Engenheiro de Segurança · AppSec**, com base de desenvolvedor
 
 Analista de Sistemas na **DIGIHUB Tecnologia**, migrando para AppSec pelo caminho de quem constrói. Modelo ameaças, reviso código, coloco SAST, DAST e SCA na esteira, faço pentest com relatório e traduzo o risco para quem vai corrigir. Também cuido de IA dos dois lados: ataco e defendo agentes com RAG e MCP.
 
