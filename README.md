@@ -1,6 +1,6 @@
 # Fabrício Júnio
 
-**Engenheiro de Segurança · AppSec**, com base de desenvolvedor
+**Segurança de Aplicações (AppSec)**, com base de desenvolvedor
 
 Analista de Sistemas na **DIGIHUB Tecnologia**, migrando para AppSec pelo caminho de quem constrói. Modelo ameaças, reviso código, coloco SAST, DAST e SCA na esteira, faço pentest com relatório e traduzo o risco para quem vai corrigir. Também cuido de IA dos dois lados: ataco e defendo agentes com RAG e MCP.
 
@@ -19,9 +19,9 @@ Analista de Sistemas na **DIGIHUB Tecnologia**, migrando para AppSec pelo caminh
 
 ## Destaques
 
+- [ConectAgente](https://github.com/fabriciojunio/ConectAgente): meu TCC e iniciação científica, selecionada pela Saruê (UNESP Bauru). Desenvolvi o sistema completo e respondo pela segurança do dado de saúde: pentest do próprio sistema, ASVS nível 2, RLS testado em banco real, SQLCipher, pinning e LGPD.
 - [Vitrine Bauru](https://github.com/fabriciojunio/vitrine-bauru): extensão da UNISAGRADO com a [SEDECON](https://www2.bauru.sp.gov.br/sedecon/), da Prefeitura de Bauru. Programa de AppSec com STRIDE, PASTA, SAMM e kit de Security Champions. [No ar](https://vitrine-bauru.vercel.app).
-- [ConectAgente](https://portfolio-a3qn.vercel.app/#work-conectagente): iniciação científica selecionada pela Saruê (UNESP Bauru). Sou responsável pela segurança e pela privacidade do dado de saúde: RLS testado em banco real, SQLCipher, pinning e LGPD.
-- [rastro](https://github.com/fabriciojunio/rastro): TCC. Análise de variantes de vulnerabilidade com aprendizado de máquina; código já corrigido no top 10 cai de 36,4% para 2,6%.
+- [rastro](https://github.com/fabriciojunio/rastro): pesquisa em Product Security. Análise de variantes de vulnerabilidade com aprendizado de máquina; código já corrigido no top 10 cai de 36,4% para 2,6%.
 - [AURORA](https://github.com/fabriciojunio/aurora-astronaut-health): NASA Space Apps Challenge 2026, em dupla. Saúde de astronautas offline, com AES-GCM, auditoria assinada e CSP estrita.
 
 <details>
