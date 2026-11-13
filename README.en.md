@@ -1,6 +1,6 @@
 # Fabrício Júnio
 
-**Security Engineer · AppSec**, with a developer's background
+**Application Security (AppSec)**, with a developer's background
 
 Systems Analyst at **DIGIHUB Tecnologia**, moving into AppSec the way builders do. I threat model, review code, put SAST, DAST and SCA in the pipeline, run pentests with a proper report and translate risk for whoever has to fix it. I also work with AI on both sides: I attack and defend agents with RAG and MCP.
 
@@ -19,9 +19,9 @@ Systems Analyst at **DIGIHUB Tecnologia**, moving into AppSec the way builders d
 
 ## Highlights
 
+- [ConectAgente](https://github.com/fabriciojunio/ConectAgente): my undergraduate thesis and research project, selected by Saruê (UNESP Bauru). I built the whole system and own security and privacy for health data: a pentest of my own system, ASVS level 2, RLS tested on a real database, SQLCipher, pinning and LGPD.
 - [Vitrine Bauru](https://github.com/fabriciojunio/vitrine-bauru): UNISAGRADO outreach project with the City of Bauru's economic development office (SEDECON). AppSec programme with STRIDE, PASTA, SAMM and a Security Champions kit. [Live](https://vitrine-bauru.vercel.app).
-- [ConectAgente](https://portfolio-a3qn.vercel.app/#work-conectagente): undergraduate research selected by Saruê (UNESP Bauru). I own security and privacy for health data: RLS tested on a real database, SQLCipher, pinning and LGPD.
-- [rastro](https://github.com/fabriciojunio/rastro): thesis. Vulnerability variant analysis with machine learning; already-fixed code in the top 10 drops from 36.4% to 2.6%.
+- [rastro](https://github.com/fabriciojunio/rastro): Product Security research. Vulnerability variant analysis with machine learning; already-fixed code in the top 10 drops from 36.4% to 2.6%.
 - [AURORA](https://github.com/fabriciojunio/aurora-astronaut-health): NASA Space Apps Challenge 2026, team of two. Offline astronaut health monitoring with AES-GCM, signed audit log and strict CSP.
 
 <details>
