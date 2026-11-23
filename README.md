@@ -1,8 +1,8 @@
 # Fabrício Júnio
 
-**Segurança de Aplicações (AppSec)**, com base de desenvolvedor
+**Desenvolvedor back-end Java e segurança de aplicações (AppSec)**
 
-Analista de Sistemas na **DIGIHUB Tecnologia**, migrando para AppSec pelo caminho de quem constrói. Modelo ameaças, reviso código, coloco SAST, DAST e SCA na esteira, faço pentest com relatório e traduzo o risco para quem vai corrigir. Também cuido de IA dos dois lados: ataco e defendo agentes com RAG e MCP.
+Analista de Sistemas na **DIGIHUB Tecnologia**. Desenvolvo em Java e Spring e cuido da segurança do que construo: modelo ameaças, reviso código, coloco SAST, DAST e SCA na esteira, faço pentest com relatório e traduzo o risco para quem vai corrigir. Também cuido de IA dos dois lados: ataco e defendo agentes com RAG e MCP.
 
 [Portfólio](https://portfolio-a3qn.vercel.app) · [LinkedIn](https://www.linkedin.com/in/fabr%C3%ADcioj%C3%BAnio/) · [E-mail](mailto:junioad555@gmail.com) · [English](README.en.md)
 
@@ -12,7 +12,7 @@ Analista de Sistemas na **DIGIHUB Tecnologia**, migrando para AppSec pelo caminh
 | --- | --- |
 | [brecha](https://github.com/fabriciojunio/brecha) | Pentest de API bancária vulnerável de propósito: 19 achados com CVSS 4.0 e CWE, relatório WSTG + Trail of Bits, cadeia de ataque até a rede interna, reteste automatizado |
 | [Feira do Comando](https://github.com/fabriciojunio/feira-do-comando) | Esteira DevSecOps com portões que barram: Semgrep com regras próprias, CodeQL, OSV, gitleaks, ZAP, SBOM, Kyverno, Falco e Kafka com TLS e ACL |
-| [AuthCore](https://github.com/fabriciojunio/authcore) | Identidade: MFA, passkeys, Keycloak com PKCE e Kong, 18 ataques provados na CI, STRIDE e ASVS 5.0 |
+| [AuthCore](https://github.com/fabriciojunio/authcore) | Identidade: MFA, passkeys, Keycloak com PKCE e Kong, 18 verificações de segurança provadas na CI, STRIDE e ASVS 5.0 |
 | [alicerce](https://github.com/fabriciojunio/alicerce) | Modelo Spring Boot seguro por padrão: anti-SSRF, distroless, cosign, OpenVEX e processos de gestão de vulnerabilidade |
 | [crivo](https://github.com/fabriciojunio/crivo) | Triagem de vulnerabilidades em Go com EPSS, KEV e SLA, aceite de risco com prazo |
 | [guarita](https://github.com/fabriciojunio/guarita) | Assistente com RAG e MCP atacado e defendido em seis cenários do OWASP Top 10 para LLM |
