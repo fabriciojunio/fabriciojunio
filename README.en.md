@@ -1,8 +1,8 @@
 # Fabrício Júnio
 
-**Application Security (AppSec)**, with a developer's background
+**Java back-end developer and application security (AppSec)**
 
-Systems Analyst at **DIGIHUB Tecnologia**, moving into AppSec the way builders do. I threat model, review code, put SAST, DAST and SCA in the pipeline, run pentests with a proper report and translate risk for whoever has to fix it. I also work with AI on both sides: I attack and defend agents with RAG and MCP.
+Systems Analyst at **DIGIHUB Tecnologia**. I build in Java and Spring and own the security of what I build: I threat model, review code, put SAST, DAST and SCA in the pipeline, run pentests with a proper report and translate risk for whoever has to fix it. I also work with AI on both sides: I attack and defend agents with RAG and MCP.
 
 [Portfolio](https://portfolio-a3qn.vercel.app) · [LinkedIn](https://www.linkedin.com/in/fabr%C3%ADcioj%C3%BAnio/) · [Email](mailto:junioad555@gmail.com) · [Português](README.md)
 
@@ -12,7 +12,7 @@ Systems Analyst at **DIGIHUB Tecnologia**, moving into AppSec the way builders d
 | --- | --- |
 | [brecha](https://github.com/fabriciojunio/brecha) | Pentest of an intentionally vulnerable banking API: 19 findings with CVSS 4.0 and CWE, WSTG + Trail of Bits report, attack chain into the internal network, automated retest |
 | [Feira do Comando](https://github.com/fabriciojunio/feira-do-comando) | DevSecOps pipeline with gates that block: Semgrep custom rules, CodeQL, OSV, gitleaks, ZAP, SBOM, Kyverno, Falco and Kafka with TLS and ACLs |
-| [AuthCore](https://github.com/fabriciojunio/authcore) | Identity: MFA, passkeys, Keycloak with PKCE and Kong, 18 attacks proven in CI, STRIDE and ASVS 5.0 |
+| [AuthCore](https://github.com/fabriciojunio/authcore) | Identity: MFA, passkeys, Keycloak with PKCE and Kong, 18 security checks proven in CI, STRIDE and ASVS 5.0 |
 | [alicerce](https://github.com/fabriciojunio/alicerce) | Secure-by-default Spring Boot template: anti-SSRF, distroless, cosign, OpenVEX and vulnerability management processes |
 | [crivo](https://github.com/fabriciojunio/crivo) | Vulnerability triage in Go with EPSS, KEV and SLAs, time-boxed risk acceptance |
 | [guarita](https://github.com/fabriciojunio/guarita) | RAG and MCP assistant attacked and defended in six OWASP Top 10 for LLM scenarios |
