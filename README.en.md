@@ -24,6 +24,7 @@ I build the system, then I test where it breaks, before someone outside does. Sy
 | [alicerce](https://github.com/fabriciojunio/alicerce) | Secure-by-default Spring Boot template: anti-SSRF, distroless, cosign, OpenVEX and vulnerability management processes |
 | [crivo](https://github.com/fabriciojunio/crivo) | Vulnerability triage in Go with EPSS, KEV and SLAs, time-boxed risk acceptance |
 | [guarita](https://github.com/fabriciojunio/guarita) | RAG and MCP assistant attacked and defended in six OWASP Top 10 for LLM scenarios |
+| [guarda-banco](https://github.com/fabriciojunio/guarda-banco) | Protection against accidental `DELETE` and `UPDATE` inside the database server: per-command row limits, DDL protection and auditing, on PostgreSQL, SQL Server and MySQL |
 | [ConectAgente](https://github.com/fabriciojunio/ConectAgente) | Pentest of my own system, ASVS level 2, SQLCipher, certificate pinning and LGPD for health data |
 | [Vitrine Bauru](https://github.com/fabriciojunio/vitrine-bauru) | AppSec program with STRIDE, PASTA, SAMM and a Security Champions kit |
 
@@ -37,7 +38,7 @@ I build the system, then I test where it breaks, before someone outside does. Sy
 
 - **Applied AI:** [Balcão](https://github.com/fabriciojunio/balcao), [Cautela](https://github.com/fabriciojunio/cautela), [Verbete](https://github.com/fabriciojunio/verbete) and [CodeReview AI](https://github.com/fabriciojunio/codereview-ai).
 - **University:** [PermaneIA](https://github.com/fabriciojunio/permaneia), [Cardiocam](https://github.com/fabriciojunio/cardiocam), [Baliza](https://github.com/fabriciojunio/baliza), [Contaflux](https://github.com/fabriciojunio/contaflux), [Kaida](https://github.com/fabriciojunio/kaida), [Bicudo](https://github.com/fabriciojunio/bicudo) and [VR Lab](https://github.com/fabriciojunio/LaboratorioVR).
-- **Others:** Almanaque ([live](https://almanaque-ecru.vercel.app)), KoraCRM ([demo](https://koracrm-frontend.vercel.app)), JIS, Outorga TV and Paiol Tech, described in the [portfolio](https://portfolio-a3qn.vercel.app/#trabalho).
+- **Others:** Almanaque ([live](https://almanaque-ecru.vercel.app)), [KoraCRM](https://github.com/fabriciojunio/KoraCRM) ([demo](https://koracrm-frontend.vercel.app)), JIS, Outorga TV and Paiol Tech, described in the [portfolio](https://portfolio-a3qn.vercel.app/#trabalho).
 
 </details>
 
