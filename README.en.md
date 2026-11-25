@@ -4,7 +4,7 @@
 
 Systems Analyst at **DIGIHUB Tecnologia**. I build in Java and Spring and own the security of what I build: I threat model, review code, put SAST, DAST and SCA in the pipeline, run pentests with a proper report and translate risk for whoever has to fix it. I also work with AI on both sides: I attack and defend agents with RAG and MCP.
 
-[Portfolio](https://portfolio-a3qn.vercel.app) · [LinkedIn](https://www.linkedin.com/in/fabr%C3%ADcioj%C3%BAnio/) · [Email](mailto:junioad555@gmail.com) · [Português](README.md)
+[Portfolio](https://portfolio-a3qn.vercel.app) · [LinkedIn](https://www.linkedin.com/in/fabricio-junio-dias/) · [Email](mailto:junioad555@gmail.com) · [Português](README.md)
 
 ## Application security
 
