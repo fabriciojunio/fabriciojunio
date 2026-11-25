@@ -4,7 +4,7 @@
 
 Analista de Sistemas na **DIGIHUB Tecnologia**. Desenvolvo em Java e Spring e cuido da segurança do que construo: modelo ameaças, reviso código, coloco SAST, DAST e SCA na esteira, faço pentest com relatório e traduzo o risco para quem vai corrigir. Também cuido de IA dos dois lados: ataco e defendo agentes com RAG e MCP.
 
-[Portfólio](https://portfolio-a3qn.vercel.app) · [LinkedIn](https://www.linkedin.com/in/fabr%C3%ADcioj%C3%BAnio/) · [E-mail](mailto:junioad555@gmail.com) · [English](README.en.md)
+[Portfólio](https://portfolio-a3qn.vercel.app) · [LinkedIn](https://www.linkedin.com/in/fabricio-junio-dias/) · [E-mail](mailto:junioad555@gmail.com) · [English](README.en.md)
 
 ## Segurança de aplicações
 
